@@ -1,0 +1,338 @@
+.marksPare{
+	position:relative;
+}
+.marks02{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:rgba(255,68,0,0.9);
+	top:0;
+	left:0;
+	display:none;
+}
+.desBox{
+	position:absolute;
+	max-width:250px;
+	bottom:15%;
+	padding-left:10px;
+	color:#fff;
+	font-size:14px;
+}
+.desBox>span{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	border-radius:5px;
+	line-height:30px;
+	color:#f40;
+	background:#fff;
+	text-align:center;
+	margin-top:10px;
+}
+.hotItemCon02 .desBox{
+	font-size:12px;
+}
+
+/*底部产品样式*/
+.bottomPro{
+	margin-top:30px;
+}
+.hotItem{
+	background:#fff;
+}
+.hotItem .titleIcon{
+	background:url(../images/hotIco.png) no-repeat center;
+}
+.proList{
+	height:30px;
+	overflow:hidden;
+	padding:0 10px;
+}
+.proList li{
+	float:left;
+	height:30px;
+	line-height:30px;
+}
+.proList li a{
+	color:#6c6c6c;
+	padding:0 11px 0 9px;
+	border-right:1px solid #e8e8e8;
+}
+.proList li a:hover{
+	color:#f40;
+}
+.hotItemConList>li {
+	float:left;
+	margin-left:-1px;
+}
+.hotItemConType01 .hotItemConInner{
+	height:399px;
+	border:1px solid #e8e8e8;
+	position:relative;
+	margin-top:-1px;
+}
+.hotItemConType01Top{
+	width:213px;
+	height:214px;
+	padding:10px 10px 0;
+}
+.hotItemConType01Bottom{
+	width:213px;
+	padding:0 10px;
+}
+.hotItemprice{
+	padding-top:10px;
+}
+.hotItemprice a{
+	font-weight:bold;
+	color:#f40;
+}
+.hotItemsale a{
+	color:#9c9c9c;
+}
+.proDes{
+	max-height:80px;
+	margin-top:4px;
+}
+.proDes a{
+	color:#6c6c6c;
+}
+.pinglun{
+	position:absolute;
+	bottom:10px;
+	left:10px;
+}
+.pinglun a{
+	color:#9c9c9c;
+}
+.pinglun em{
+	padding-right:6px;
+}
+.hotItemConList>li .hotItemConInner:hover{
+	border-color:#f40;
+	z-index:20;
+}
+.hotItemConList>li .hotItemConInner:hover .marks02{
+	display:block;
+}
+.hotItemConType02 .hotItemConInner{
+	height:199px;
+	border:1px solid #e8e8e8;
+	position:relative;
+	margin-top:-1px;
+}
+.hotItemConType02{
+	height:198px;
+}
+.hotItemConType02Top{
+	width:141px;
+	height:140px;
+	padding:10px  10px 0;
+}
+.hotItemConType02Bottom{
+	width:141px;
+	padding:0 10px;
+}
+.hotItemConItem{
+	float:left;
+	width:375px;
+	height:130px;
+	padding:10px;
+	border:1px solid #e8e8e8;
+	margin-left:-1px;
+	margin-top:-1px;
+	position:relative;
+}
+.hotItemConItem:hover{
+	border-color:#f40;
+	z-index:20;
+}
+/*必买清单样式*/
+.mustBuyList{
+	background:#fff;
+	margin-top:20px;
+	padding:0 20px 30px;
+}
+.mustBuyListTitle .titleIcon{
+	background:url(../images/mustBuy_11.png) no-repeat center;
+}
+a.mustBuyListConItem{
+	display:block;
+	float:left;
+	width:550px;
+}
+a.mustBuyListConItem h3{
+	height:40px;
+	line-height:40px;
+	font-size:17px;
+	color:#666;
+	font-weight:600;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+a.mustBuyListConItem p{
+	height:24px;
+	line-height:24px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-size:16px;
+	color:#999;
+}
+.mustBuyListConItem ul li{
+	float:left;
+	width:180px;
+	height:180px;
+	border:3px solid #f4f4f4;
+	margin-left:-3px;
+}
+.fromWho{
+	margin-top:18px;
+}
+.mustBuyListCon a:nth-child(2n){
+	margin-left:38px;
+}
+/* 猜你喜欢样式*/
+.GuessYouLike{
+	margin-top:20px;
+	padding-left:20px;
+	background:#fff;
+	border-top:1px solid #e8e8e8;
+}
+.GuessYouLikeListItem{
+	position:relative;
+	float:left;
+	margin-left: 8px;
+    margin-bottom:30px;
+}
+.GuessYouLikeList li:first-child{
+    margin-left: 0;
+}
+.GuessYouLikeList li:nth-child(6n){
+    margin-left: 0;
+}
+.GuessYouLikeCon .titleIcon{
+	background:url(../images/GuessYouLike_15.png) no-repeat center;
+}
+.GuessYouLikeListItem>a.GuessYouLikeListItemCon{
+	display:block;
+	width:221px;
+	height:302px;
+	border:1px solid #f5f5f5;
+	position:relative;
+}
+.GuessYouLikeListItemBottom{
+	height:83px;
+	background-color:#f5f5f5;
+	position:relative;
+}
+.GuessYouLikeListItemBottom h3{
+	line-height:20px;
+	color:#6c6c6c;
+	font-size:12px;
+	padding: 0 15px 0 10px;
+}
+.priceAndSale{
+	position:absolute;
+	bottom:12px;
+	width:100%;
+}
+.priceAndSale .price{
+	float:left;
+	font-size:14px;
+	color:#f40;
+	padding-left:10px;
+	font-weight:bold;
+}
+.priceAndSale .sale{
+	float:right;
+	padding-right:15px;
+	color:#9ca0aa;
+}
+.findMore{
+	position:absolute;
+	width:100%;
+	height:83px;
+	bottom:0;
+	left:1px;
+	background:url(../images/找相似.png) no-repeat;
+	display:none;
+	transition:all 0.3s;
+}
+.findMore .find{
+	width:120px;
+	padding-top:15px;
+	color:#fff;
+	font-size:18px;
+	height:32px;
+	line-height:32px;
+	margin:0 auto;
+	text-align:center;
+	border-bottom:1px solid #d65915;
+}
+.findDec{
+	text-align:center;
+	color:#fff;
+}
+.GuessYouLikeListItem:hover .findMore{
+	display:block;
+}
+.GuessYouLikeListItem:hover>a.GuessYouLikeListItemCon{
+	border-color:#f40;
+}
+.GuessYouLikeHot{
+
+}
+
+.GuessYouLikeEnd i{
+    padding: 0 30px;
+    font-weight: 100;
+}
+/*底部列表*/
+.bottomList{
+    margin-top:45px;
+    padding-left:20px;
+    height: 150px;
+}
+.bottomListIco{
+    display: inline-block;
+    width:40px;
+    height:40px;
+    background: red;
+    vertical-align: middle;
+}
+.bottomListItem{
+    width: 200px;
+    float: left;
+    margin-right: 100px;
+}
+.bottomListItem:last-child{
+    margin-right: 0;
+}
+.bottomListItem li{
+    float: left;
+    line-height: 20px;
+}
+.bottomListItem li a{
+    padding-right: 8px;
+    color:#999;
+}
+.bottomListItem li a:hover{
+    color: #f40;
+}
+.bottomListItem>ul{
+    margin-top: 6px;
+}
+.Consumer{
+    background: url(../images/images/淘宝底部截图_03.png) no-repeat center;
+}
+.Novice{
+    background: url(../images/images/淘宝底部截图_08.png) no-repeat center;
+}
+.payment{
+    background: url(../images/images/淘宝底部截图_10.png) no-repeat center;
+}
+.tbfeature{
+    background: url(../images/images/淘宝底部截图_05.png) no-repeat center;
+}

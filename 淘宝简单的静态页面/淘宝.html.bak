@@ -1,0 +1,2685 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/tbhome.css"/>
+    <link rel="stylesheet" type="text/css" href="css/thHomeMainLeft.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bottomPro.css"/>
+    <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+    <link rel="icon" href="images/taobao.ico"/>
+    <script src="js/淘宝banner.js"></script>
+    <title>淘宝？</title>
+</head>
+<body>
+<!--头部导航条-->
+<div class="headNav clearfix">
+    <div class="w">
+        <div class="headNavLeft">
+            <div class="headPosition"><span>中国大陆</span><span class="headDown"></span></div>
+            <div class="loginAndRegister"><a class="login" href="#">亲,请登录</a><a class="register" href="#">免费注册</a></div>
+            <div class="tbPhone"><a href="#">手机逛淘宝</a></div>
+        </div>
+        <div class="headNavRight">
+            <ul>
+                <li>
+                    <div class="liContain">
+                        <a href="#">我的淘宝</a>
+                        <span class="headDown"></span>
+                    </div>
+                    <div class="wdtbList">
+                        <ul>
+                            <li><a href="#">已买到的宝贝</a></li>
+                            <li><a href="#">我的足迹</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="liContain"><i class="buy icon"></i><a href="#">购物车</a><span class="headDown"></span>
+                    </div>
+                </li>
+                <li class="scjLi">
+                    <div class="liContain">
+                        <i class="scj icon"></i>
+                        <a href="#">收藏夹</a>
+                        <span class="headDown"></span>
+                    </div>
+                    <div class="wdtbList">
+                        <ul>
+                            <li><a href="#">收藏的宝贝</a></li>
+                            <li><a href="#">收藏的店铺</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="liContain"><a href="#">商品分类</a><span class="headDown"></span></div>
+                </li>
+                <li>
+                    <div class="liContain">
+                        <a href="#">卖家中心</a>
+                        <span class="headDown"></span>
+                    </div>
+                    <div class="wdtbList">
+                        <ul>
+                            <li><a href="#">免费开店</a></li>
+                            <li><a href="#">已卖出的宝贝</a></li>
+                            <li><a href="#">出售中的宝贝</a></li>
+                            <li><a href="#">卖家服务市场</a></li>
+                            <li><a href="#">卖家培训中心</a></li>
+                            <li><a href="#">体检中心</a></li>
+                            <li><a href="#">问商友</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="liContain">
+                        <a href="#">联系客服</a>
+                        <span class="headDown"></span>
+                    </div>
+                    <div class="wdtbList">
+                        <ul>
+                            <li><a href="#">联系客服</a></li>
+                            <li><a href="#">消费者客服</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="liContain"><i class="wzdh icon"></i><a href="#">网站导航</a><span class="headDown"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--logo和搜索框-->
+<div class="logoAndSearch">
+    <div class="w">
+        <div class="logo"><a href="#"><img src="images/tbLogo.jpg"/></a></div>
+        <div id="search" class="search">
+            <ul class="searchPositions">
+                <li class="bb searchSelected">宝贝</li>
+                <li class="tm">天猫</li>
+                <li class="dp">店铺</li>
+            </ul>
+            <div id="tabSwitch" class="searchInput">
+                <form class="clearfix">
+                    <input id="searInput" class="sear" type="text"/>
+                    <span class="zxj"></span>
+                    <input id="sub" class="sub" type="submit" value="搜索"/>
+                </form>
+                <div class="bbPlaceholder inputPloceholder show">
+                    <span class="searchIcon"></span>
+                    <span class="txt">儿童拖鞋 凉鞋</span>
+                </div>
+                <div class="tmPlaceholder inputPloceholder hidden">
+                    <span class="searchIcon"></span>
+                    <span class="txt">让牙齿越来越干净</span>
+                </div>
+                <div class="dpPlacehilder inputPloceholder hidden">
+                    <span class="searchIcon"></span>
+                    <span class="txt">浪花一朵朵同款</span>
+                </div>
+            </div>
+            <div class="hotList">
+                <ul>
+                    <li><a href="#">新款连衣裙</a></li>
+                    <li><a href="#">四件套</a></li>
+                    <li><a class="color" href="#">潮流T恤</a></li>
+                    <li><a href="#">时尚女鞋</a></li>
+                    <li><a href="#">短裤</a></li>
+                    <li><a href="#">半身裙</a></li>
+                    <li><a href="#">男士外套</a></li>
+                    <li><a href="#">墙纸</a></li>
+                    <li><a href="#">行车记录仪</a></li>
+                    <li><a href="#">新款男鞋</a></li>
+                    <li><a href="#">耳机</a></li>
+                    <li><a class="more" href="#">更多&gt;</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--主导航条-->
+<div class="mainNav">
+    <div class="w">
+        <ul>
+            <li><a class="color" href="#">天猫</a></li>
+            <li><a class="color" href="#">聚划算</a></li>
+            <li><a class="color" href="#">天猫超市</a></li>
+            <li class="line linefirst">|</li>
+            <li><a href="#">淘抢购</a></li>
+            <li><a href="#">电器城</a></li>
+            <li><a href="#">司法拍卖</a></li>
+            <li><a href="#">中国质造</a></li>
+            <li><a href="#">特色中国</a></li>
+            <li class="line">|</li>
+            <li><a href="#">飞猪旅行</a></li>
+            <li><a href="#">智能生活</a></li>
+            <li><a href="#">苏宁易购</a></li>
+        </ul>
+    </div>
+</div>
+<!--主体内容-->
+
+<div class="main clearfix">
+    <div class="w">
+        <div class="mainContianLeft">                       <!--左侧部分-->
+            <div class="sideNavAndBanner">                  <!--左侧导航栏和banner-->
+                <div class="sideNavAndBannerTop">           <!--左侧导航栏和banner顶部-->
+                    <div class="mainSideNav">               <!--左侧导航栏-->
+                        <dl class="first-menu">
+                            <dt class="first-menu-title">主题市场<span class="listIcon"></span></dt>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd class="first-menu-item"><span class="icon"></span><a href="#">女装</a>/<a href="#">男装</a>/<a
+                                    href="#">内衣</a><span class="sj"></span></dd>
+                            <dd><a href="#"><img
+                                    src="images/TB29zkQctMnyKJjSZPhXXaeZVXa_!!178-0-luban.jpg_190x190q90.jpg_.webp"/></a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="banner">                      <!--banner-->
+                        <div class="bannerLeft">              <!--banner左边部分-->
+                            <div class="bannerLeftTop">       <!--banner左边部分的上半部分-->
+                                <ul id="mainBanner">
+                                    <li><a href="#"><img src="images/banner01.jpg"/></a></li>
+                                    <li><a href="#"><img src="images/banner02.webp"/></a></li>
+                                    <li><a href="#"><img src="images/banner03.jpg"/></a></li>
+                                    <li><a href="#"><img src="images/banner04.webp"/></a></li>
+                                    <li><a href="#"><img src="images/banner05.jpg"/></a></li>
+                                </ul>
+                                <ul id="mainBannerCircle" class="circle clearfix">
+
+                                </ul>
+                                <span id="mainLeftBtn" class="leftBtn"></span>
+                                <span id="mainRightBtn" class="rightBtn"></span>
+                            </div>
+                            <div class="bannerLeftBotton">    <!--banner左边部分的下半部分-->
+                                <h3>天猫必逛<span>热门品牌,天天上天猫!</span><i class="thisIndex"><em class="red">1</em>/6</i></h3>
+                                <div class="bannerLeftBottonContain clearfix">
+                                    <ul>
+                                        <li>
+                                            <div class="everyNew">
+                                                <a href="#"><img src="images/everyNew.jpg"/></a>
+                                            </div>
+                                            <div class="bannerLeftBottonContainItem niuhuo"><a href="#"><img
+                                                    src="images/niuhuo.jpg"/></a></div>
+                                            <div class="bannerLeftBottonContainItem sjg"><a href="#"><img
+                                                    src="images/sj.jpg"/></a></div>
+                                            <div class="bannerLeftBottonContainItem cwy"><a href="#"><img
+                                                    src="images/cwy.jpg"/></a></div>
+                                            <div class="bannerLeftBottonContainItem sg"><a href="#"><img
+                                                    src="images/sg.jpg"/></a></div>
+                                        </li>
+                                    </ul>
+                                    <span class="leftBtn"></span>
+                                    <span class="rightBtn"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bannerRight">             <!--banner右边部分-->
+                            <div class="bannerRightTop">
+                                <a href="#"><img src="images/女神潮流.png"/></a>
+                            </div>
+                            <div class="bannerRightBotton">
+                                <h3>今日热卖</h3>
+                                <div class="Todaytrend">    <!--Trend潮流-->
+                                    <a href="#">
+                                        <img src="images/cl.jpg"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sideNavAndBannerBottom clearfix">  <!--左侧导航栏和banner底部-->
+                    <ul>
+                        <li class="bannerBottomItem  bannerBottomItem01">
+                            <a href="#">
+                                <div class="bannerBottomLeft"></div>
+                                <div class="bannerBottomRight">
+                                    <h4>囤货小当家</h4>
+                                    <p class="des">会囤会生活</p>
+                                    <div class="Hot "><span class="hotIcon"></span><i>人气<em>1127057</em></i></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bannerBottomItem  bannerBottomItem02">
+                            <a href="#">
+                                <div class="bannerBottomLeft"></div>
+                                <div class="bannerBottomRight">
+                                    <h4>家有萌娃</h4>
+                                    <p class="des">宝贝快快长大</p>
+                                    <div class="Hot "><span class="hotIcon"></span><i>人气<em>2499744</em></i></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bannerBottomItem  bannerBottomItem03">
+                            <a href="#">
+                                <div class="bannerBottomLeft"></div>
+                                <div class="bannerBottomRight">
+                                    <h4>理想家</h4>
+                                    <p class="des">想要这个家</p>
+                                    <div class="Hot "><span class="hotIcon"></span><i>人气<em>2206608</em></i></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bannerBottomItem  bannerBottomItem04">
+                            <a href="#">
+                                <div class="bannerBottomLeft"></div>
+                                <div class="bannerBottomRight">
+                                    <h4>新时代主妇</h4>
+                                    <p class="des">拒做黄脸婆</p>
+                                    <div class="Hot "><span class="hotIcon"></span><i>人气<em>3108674</em></i></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bannerBottomItem  bannerBottomItem05">
+                            <a href="#">
+                                <div class="bannerBottomLeft"></div>
+                                <div class="bannerBottomRight">
+                                    <h4>书生意气</h4>
+                                    <p class="des">书卷气更迷人</p>
+                                    <div class="Hot "><span class="hotIcon"></span><i>人气<em>196155</em></i></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>     <!--左侧导航栏和banner结束-->
+            <div class="oftenGo">                   <!--我常逛的-->
+                <div class="oftenGoTitle">
+                    <span class="leftLine"></span>
+                    <span class="oftenGoTitleCon">
+							<span class="OGTicon"></span>我常逛的
+						</span>
+                    <span class="rightLine"></span>
+                </div>
+                <div class="oftenGoContain">         <!--内容部分-->
+                    <div class="ofentGoTop clearfix">
+                        <div class="oftenGoItem01 clearfix">
+                            <div class="oftenGoItemLeft">        <!--单个内容左侧部分-->
+                                <div class="oftenGoItemLeftTop"><img src="images/oftenGoItem01.webp"/></div>
+                                <div class="oftenGoItemLeftBottom">
+                                    <dl>
+                                        <dt>热门TOP</dt>
+                                        <dd><a href="">iphone 7</a></dd>
+                                        <dd><a href="">S8</a></dd>
+                                        <dd><a href="">游戏鼠标</a></dd>
+                                        <dd><a href="">机械键盘</a></dd>
+                                        <dd><a href="">单反相机</a></dd>
+                                        <dd><a href="">AppleWatch</a></dd>
+                                        <dd><a href="">DIY主机</a></dd>
+                                        <dd><a href="">智能机器人</a></dd>
+                                        <dd><a href="">制氧机</a></dd>
+                                        <dd><a href="">榨汁机</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="oftenGoItemRight">         <!--单个内容右侧部分-->
+                                <div class="oftenGoItemRightTop clearfix">
+                                    <div class="oftenGoItemhover choicePhone">       <!--手机精选-->
+                                        <a href="#">
+                                            <img src="images/手机精选.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoItemhover torch">       <!--torch火炬-->
+                                        <a href="#">
+                                            <img src="images/火焰家电.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoItemhover digitalAndJD">              <!--digitalAndJD数码和家电-->
+                                        <a href="#">
+                                            <div class="oftenGoItemALeft">
+                                                <h3>数码好货</h3>
+                                                <span>等你来看</span>
+                                            </div>
+                                            <img src="images/数码好货.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="oftenGoItemALeft">
+                                                <h3>品质家电</h3>
+                                                <span>生活精选</span>
+                                            </div>
+                                            <img src="images/品质家电.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="oftenGoItemRightBottom clearfix">
+                                    <div class="oftenGoItemRightBottomLeft">
+                                        <a herf="#">
+                                            <img src="images/品质好货.webp"/>
+                                            <div class="showDes">
+                                                <h3><span class="productName">数码</span><i>品质好货优选</i></h3>
+                                                <p>为你精选数码行业优质好货为你精选数码行业优质好货</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoItemRightBottomRight">
+                                        <div class="oftenGoItemRightBottomRightTop">
+                                            <a href="#">
+                                                <img src="images/二手数码.webp"/>
+                                                <div class="a-des">二手数码商品</div>
+                                                <div class="marks"></div>
+                                            </a>
+                                        </div>
+                                        <div class="oftenGoItemRightBottomRightBottom">
+                                            <a href="#">
+                                                <img src="images/零售速达.webp"/>
+                                                <div class="a-des">区域零售速达</div>
+                                                <div class="marks"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="oftenGoItem02 clearfix">
+                            <div class="oftenGoItemLeft">        <!--单个内容左侧部分-->
+                                <div class="oftenGoItemLeftTop"><img src="images/极有家.webp"/></div>
+                                <div class="oftenGoItemLeftBottom">
+                                    <dl>
+                                        <dt>热门TOP</dt>
+                                        <dd><a href="#">浴室柜<span class="hot"></span></a></dd>
+                                        <dd><a href="#">瓷砖</a><a href="#">美灯</a></dd>
+                                        <dd><a href="#">墙纸</a><a href="#">地板</a></dd>
+                                        <dd><a href="#">吊灯</a><a href="#">装修</a></dd>
+                                        <dd><a href="#">样板</a><a href="#">床<span class="hot"></span></a></dd>
+                                        <dd><a href="#">收纳<span class="hot"></span></a></dd>
+                                        <dd><a href="#">四件套</a></dd>
+                                        <dd><a href="#">餐具</a><a href="#">冬被</a></dd>
+                                        <dd><a href="#">毛毯</a><a href="#">家具</a></dd>
+                                        <dd><a href="#">沙发<span class="hot"></span></a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="oftenGoItemRight">         <!--单个内容右侧部分-->
+                                <div class="oftenGoItemRightTop clearfix">
+                                    <div class="oftenGoItemhover choicePhone">       <!--手机精选-->
+                                        <a href="#">
+                                            <img src="images/点亮家居.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoItemhover torch">       <!--torch火炬-->
+                                        <a href="#">
+                                            <img src="images/百变家具.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoItemhover digitalAndJD">              <!--digitalAndJD数码和家电-->
+                                        <a href="#">
+                                            <div class="oftenGoItemALeft">
+                                                <h3>金色元素</h3>
+                                                <span>搭在一起</span>
+                                            </div>
+                                            <img src="images/金色元素.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="oftenGoItemALeft">
+                                                <h3>装修预约</h3>
+                                                <span>量房设计</span>
+                                            </div>
+                                            <img src="images/装修预约.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="oftenGoItemRightBottom clearfix">
+                                    <div class="oftenGoItemRightBottomLeft">
+                                        <a herf="#">
+                                            <img src="images/夏季好货.webp"/>
+                                            <div class="showDes">
+                                                <h3><span class="productName">抢新鲜</span><i>夏日换季好货选</i></h3>
+                                                <p>每天为你挑选当天上新的优选商品，更有低至五折的优惠价格。</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoItemRightBottomRight">
+                                        <div class="oftenGoItemRightBottomRightTop">
+                                            <a href="#">
+                                                <img src="images/简约日式.webp"/>
+                                                <div class="a-des">简约日式风</div>
+                                                <div class="marks"></div>
+                                            </a>
+                                        </div>
+                                        <div class="oftenGoItemRightBottomRightBottom">
+                                            <a href="#">
+                                                <img src="images/最爱美家.webp"/>
+                                                <div class="a-des">最爱清新美家</div>
+                                                <div class="marks"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ofentGoBottom clearfix">
+                        <div class="oftenGoItem03">
+                            <div class="oftenGoItemLeft">        <!--单个内容左侧部分-->
+                                <div class="oftenGoItemLeftTop">
+                                    <img src="images/中国质造.webp"/>
+                                </div>
+                                <div class="oftenGoItemLeftBottom">
+                                    <dl>
+                                        <dt>热门TOP</dt>
+                                        <dd><a href="">连衣裙<span class="hot"></span></a></dd>
+                                        <dd><a href="">单鞋</a><a href="">沙发</a></dd>
+                                        <dd><a href="">真皮女包</a></dd>
+                                        <dd><a href="">风衣</a></dd>
+                                        <dd><a href="">按摩靠垫</a></dd>
+                                        <dd><a href="">运动服</a></dd>
+                                        <dd><a href="">四件套</a></dd>
+                                        <dd><a href="">行李箱<span class="hot"></span></a></dd>
+                                        <dd><a href="">牛仔裤</a></dd>
+                                        <dd><a href="">电水壶</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="oftenGoBottomRight">
+                                <div class="oftenGoBottomRightTop clearfix">
+                                    <div class="oftenGoBottomRightTop01">
+                                        <a href="#">
+                                            <img src="images/品质优选.webp"/>
+                                            <span class="a-des">品质优选</span>
+                                            <div class="marks"></div>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/大厂直供.webp"/>
+                                            <span class="a-des">大厂直供</span>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoBottomRightTop02">
+                                        <a href="#">
+                                            <img src="images/收纳.jpg"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoBottomRightTop03">
+                                        <a href="#">
+                                            <img src="images/质选榜.jpg" style="height:201px; width:136px;"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="oftenGoBottomRightBottom">
+                                    <div class="oftenGoBottomRightBottomLeft">
+                                        <a href="#">
+                                            <img src="images/小户型家具.jpg"/>
+                                            <div class="showDes">
+                                                <h3><span class="productName">好货不贵</span><i>小户型家具这样选</i></h3>
+                                            </div>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoBottomRightBottomRight">
+                                        <a href="#">
+                                            <div class="oftenGoItemALeft">
+                                                <h3>国货精品</h3>
+                                                <span>质造首选</span>
+                                            </div>
+                                            <img src="images/国货精品.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="oftenGoItemALeft">
+                                                <h3>猜你喜欢</h3>
+                                                <span>好货不贵</span>
+                                            </div>
+                                            <img src="images/猜你喜欢.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="oftenGoItem04">
+                            <div class="oftenGoItemLeft">        <!--单个内容左侧部分-->
+                                <div class="oftenGoItemLeftTop">
+                                    <img src="images/爱逛街.webp"/>
+                                </div>
+                                <div class="oftenGoItemLeftBottom">
+                                    <dl>
+                                        <dt>热门TOP</dt>
+                                        <dd><a href="">T恤<span class="hot"></span></a></dd>
+                                        <dd><a href="">衬衫</a></dd>
+                                        <dd><a href="">连衣裙<span class="hot"></span></a></dd>
+                                        <dd><a href="">雪纺衫</a></dd>
+                                        <dd><a href="">凉鞋<span class="hot"></span></a></dd>
+                                        <dd><a href="">东大门<span class="hot"></span></a></dd>
+                                        <dd><a href="">画眼妆</a></dd>
+                                        <dd><a href="">学扎发<span class="hot"></span></a></dd>
+                                        <dd><a href="">单肩包</a></dd>
+                                        <dd><a href="">沙发</a><a href="">单鞋</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="oftenGoBottomRight">
+                                <div class="oftenGoBottomRightTop clearfix">
+                                    <div class="oftenGoBottomRightTop01">
+                                        <a href="#">
+                                            <img src="images/春季新款.webp"/>
+                                            <span class="a-des">春季新款</span>
+                                            <div class="marks"></div>
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/唯美女鞋.webp"/>
+                                            <span class="a-des">唯美女鞋</span>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoBottomRightTop02">
+                                        <a href="#">
+                                            <img src="images/无敌显瘦.jpg"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoBottomRightTop03">
+                                        <a href="#">
+                                            <img src="images/夏季新品.jpg" style="height:201px; width:136px;"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="oftenGoBottomRightBottom">
+                                    <div class="oftenGoBottomRightBottomLeft">
+                                        <a href="#">
+                                            <img src="images/潮搭.jpg"/>
+                                            <div class="showDes">
+                                                <h3><span class="productName">潮搭</span><i>内衣外穿超减龄</i></h3>
+                                            </div>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                    <div class="oftenGoBottomRightBottomRight">
+                                        <a href="#">
+                                            <div class="oftenGoItemALeft">
+                                                <h3>"包包"</h3>
+                                                <span>能治百病</span>
+                                            </div>
+                                            <img src="images/包包.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="oftenGoItemALeft">
+                                                <h3>创意家居</h3>
+                                                <span>温馨小家</span>
+                                            </div>
+                                            <img src="images/创意家居.webp"/>
+                                            <div class="marks"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="advertise">                 <!--一条广告-->
+                <a href="#">
+                    <img src="images/advertise.jpg"/>
+                </a>
+            </div>
+            <div class="fashionStory">                <!--时尚爆料王-->
+                <div class="fashionStoryTitle AllTitle">
+							<span class="fashionStoryCon leftRightLine">
+								<span class="titleIcon"></span><i>时尚爆料王</i>
+							</span>
+                    <a href="#">更多&gt;</a>
+                </div>
+                <div class="fashionStoryContain clearfix">
+                    <a href="#" class="ifashion">        <!--第一项-->
+                        <div class="til">
+                            <img src="images/ifashion.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </div>
+                        <div class="con clearfix">
+                            <div class="conLeft">
+                                <img src="images/连衣裙.jpg"/>
+                                <p style="background-color:#ff0055;">沙滩度假连衣裙</P>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="conRight">
+                                <div class="conRightTop">
+                                    <img src="images/包治百病.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">包治百病</p>
+                                    <div class="marks"></div>
+                                </div>
+                                <div class="conRightBottom">
+                                    <div class="conRightTop">
+                                        <img src="images/女神战靴.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">女神战靴</p>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="ifashion02">     <!--第二项-->
+                        <div class="til">
+                            <img src="images/全球购.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </div>
+                        <div class="con clearfix">
+                            <div class="conLeft">
+                                <div class="conLeftTop">
+                                    <img src="images/限量口红.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">限量口红</p>
+                                    <div class="marks"></div>
+                                </div>
+                                <div class="conLeftBottom">
+                                    <img src="images/精致项链.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">精致项链</p>
+                                    <div class="marks"></div>
+                                </div>
+                            </div>
+                            <div class="conRight">
+                                <div class="conRightTop">
+                                    <img src="images/包治百病02.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">包治百病</p>
+                                    <div class="marks"></div>
+                                </div>
+                                <div class="conRightBottom">
+                                    <div class="conRightTop">
+                                        <img src="images/野田珐琅壶.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">野田珐琅壶</p>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="ifashion03">     <!--第三项-->
+                        <div class="til">
+                            <img src="images/美妆秀.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </div>
+                        <div class="con clearfix">
+                            <div class="conLeft">
+                                <img src="images/唇膏精选.jpg"/>
+                                <p>唇膏精选</P>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="conRight">
+                                <div class="conRightTop">
+                                    <img src="images/最潮撩汉.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">最潮撩汉妆</p>
+                                    <div class="marks"></div>
+                                </div>
+                                <div class="conRightBottom">
+                                    <div class="conRightTop">
+                                        <img src="images/美发良品.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">美发良品</p>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="ifashion04">     <!--第四项-->
+                        <div class="til">
+                            <img src="images/爱逛街Title.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </div>
+                        <div class="con clearfix">
+                            <div class="conLeft">
+                                <div class="conLeftTop">
+                                    <img src="images/懒人必备连衣裙.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">懒人必备连衣裙</p>
+                                    <div class="marks"></div>
+                                </div>
+                                <div class="conLeftBottom">
+                                    <img src="images/今夏露背杀.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">今夏露背杀</p>
+                                    <div class="marks"></div>
+                                </div>
+                            </div>
+                            <div class="conRight">
+                                <div class="conRightTop">
+                                    <img src="images/小清新家具.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">小清新家具</p>
+                                    <div class="marks"></div>
+                                </div>
+                                <div class="conRightBottom">
+                                    <div class="conRightTop">
+                                        <img src="images/春夏编发.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">春夏编发</p>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="qualityLife">                <!--品质生活家-->
+                <div class="qualityLifeTitle AllTitle">
+							<span class="fashionStoryCon leftRightLine">
+								<span class="titleIcon"></span><i>品质生活家</i>
+							</span>
+                    <a href="#">更多&gt;</a>
+                </div>
+                <div class="qualityLifeContain">
+                    <div class="qualityLifeContainTop  clearfix">
+                        <div class="tbEat qualityLife01">        <!--第一项-->
+                            <div class="til">
+                                <img src="images/淘宝汇吃.jpg"/>
+                                <span class="sys"></span>
+                                <div class="sysShow">
+                                    <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                    <p>手机淘宝扫码</p>
+                                </div>
+                            </div>
+                            <div class="con clearfix">
+                                <div class="conTop clearfix">
+                                    <a href="#" class="conTopLeft">
+                                        <img src="images/正宗牛肉丸.jpg" style="width:90px;"/>
+                                        <p>正宗牛肉丸</p>
+                                        <span>Q弹有嚼劲</span>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conTopRight">
+                                        <img src="images/鲜甜石榴.jpg" style="width:90px;"/>
+                                        <p>鲜甜石榴</p>
+                                        <span>皮薄汁水甜</span>
+                                        <div class="marks"></div>
+                                    </a>
+                                </div>
+                                <div class="conBottom">
+                                    <ul class="clearfix">
+                                        <li><a href="#">应季鲜果</a></li>
+                                        <li><a href="#">精致糕点</a></li>
+                                        <li><a href="#">全球美食</a></li>
+                                        <li><a href="#">烘培原料</a></li>
+                                        <li><a href="#">无辣不欢</a></li>
+                                        <li><a href="#">生猛海鲜</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div href="#" class="ifashion02 qualityLifeItem qualityLife02">     <!--第二项-->
+                            <a href="#" class="til">
+                                <img src="images/极有家02.jpg"/>
+                                <span class="sys"></span>
+                                <div class="sysShow">
+                                    <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                    <p>手机淘宝扫码</p>
+                                </div>
+                            </a>
+                            <div class="con clearfix">
+                                <div class="conLeft">
+                                    <a href="#" class="conLeftTop">
+                                        <img src="images/为爱女打造快乐.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">为爱女打造快乐</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conLeftBottom">
+                                        <img src="images/老房变变变.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">老房变变变</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                </div>
+                                <div class="conRight">
+                                    <a href="#" class="conRightTop">
+                                        <img src="images/一物多用巧家具.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">一物多用巧家具</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conRightBottom">
+                                        <div class="conRightTop">
+                                            <img src="images/清爽罗马帘.jpg" style="width:90px;height:90px;"/>
+                                            <p class="descript">清爽罗马帘</p>
+                                            <div class="marks"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tbEat qualityLife03">        <!--第三项-->
+                            <div class="til">
+                                <img src="images/格调.jpg"/>
+                                <!--<span class="sys"></span>
+                                <div class="sysShow">
+                                    <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                    <p>手机淘宝扫码</p>
+                                </div>-->
+                            </div>
+                            <div class="con clearfix">
+                                <div class="conTop clearfix">
+                                    <a href="#" class="conTopLeft">
+                                        <img src="images/潮牌手表.jpg" style="width:90px;"/>
+                                        <p>潮牌 手表</p>
+                                        <span>rumbatime</span>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conTopRight">
+                                        <img src="images/热门女鞋.jpg" style="width:90px;"/>
+                                        <p>热门女鞋</p>
+                                        <span>开口笑</span>
+                                        <div class="marks"></div>
+                                    </a>
+                                </div>
+                                <div class="conBottom">
+                                    <ul class="clearfix">
+                                        <li><a href="#">春天的包包</a></li>
+                                        <li><a href="#">Chloe墨镜</a></li>
+                                        <li><a href="#">小白鞋</a></li>
+                                        <li><a href="#">水润你</a></li>
+                                        <li><a href="#">亚历山大.王</a></li>
+                                        <li><a href="#">Gucci酒神</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div href="#" class="ifashion02 qualityLifeItem qualityLife04">     <!--第四项-->
+                            <a href="#" class="til">
+                                <img src="images/中国制造.jpg"/>
+                                <span class="sys"></span>
+                                <div class="sysShow">
+                                    <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                    <p>手机淘宝扫码</p>
+                                </div>
+                            </a>
+                            <div class="con clearfix">
+                                <div class="conLeft">
+                                    <a href="#" class="conLeftTop">
+                                        <img src="images/真皮中国风.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">真皮中国风</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conLeftBottom">
+                                        <img src="images/顶尖品质箱子.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">顶尖品质箱子</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                </div>
+                                <div class="conRight">
+                                    <a href="#" class="conRightTop">
+                                        <img src="images/纯棉婴儿爬服.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">纯棉婴儿爬服</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conRightBottom">
+                                        <div class="conRightTop">
+                                            <img src="images/棉麻素色床品.jpg" style="width:90px;height:90px;"/>
+                                            <p class="descript">棉麻素色床品</p>
+                                            <div class="marks"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qualityLifeContainBottom  clearfix">
+                        <div class="ifashion02 qualityLifeItem qualityLife05">     <!--第五项-->
+                            <a href="#" class="til">
+                                <img src="images/亲宝贝.jpg"/>
+                                <!--<span class="sys"></span>
+                                <div class="sysShow">
+                                    <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                    <p>手机淘宝扫码</p>
+                                </div>-->
+                            </a>
+                            <div class="con clearfix">
+                                <div class="conLeft">
+                                    <a href="#" class="conLeftTop">
+                                        <img src="images/真皮中国风.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">真皮中国风</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conLeftBottom">
+                                        <img src="images/顶尖品质箱子.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">顶尖品质箱子</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                </div>
+                                <div class="conRight">
+                                    <a href="#" class="conRightTop">
+                                        <img src="images/纯棉婴儿爬服.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">纯棉婴儿爬服</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conRightBottom">
+                                        <div class="conRightTop">
+                                            <img src="images/棉麻素色床品.jpg" style="width:90px;height:90px;"/>
+                                            <p class="descript">棉麻素色床品</p>
+                                            <div class="marks"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualityLifeItem qualityLife06">        <!--第六项-->
+                            <div class="til">
+                                <img src="images/淘宝房产.jpg"/>
+                                <span class="sys"></span>
+                                <div class="sysShow">
+                                    <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                    <p>手机淘宝扫码</p>
+                                </div>
+                            </div>
+                            <div class="con clearfix">
+                                <div class="conTop clearfix">
+                                    <a href="#" class="conTopLeft">
+                                        <img src="images/开发商直营.jpg" style="width:90px;"/>
+                                        <p>开发商直营</p>
+                                        <span>价格透明高返利</span>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conTopRight">
+                                        <img src="images/低总价楼盘.jpg" style="width:90px;"/>
+                                        <p>低总价楼盘</p>
+                                        <span>自住投资两相宜</span>
+                                        <div class="marks"></div>
+                                    </a>
+                                </div>
+                                <div class="conBottom">
+                                    <ul class="clearfix">
+                                        <li><a href="#">万科品牌馆</a></li>
+                                        <li><a href="#">绿城品牌馆</a></li>
+                                        <li><a href="#">万达品牌馆</a></li>
+                                        <li><a href="#">海外买房</a></li>
+                                        <li><a href="#">实惠二手房</a></li>
+                                        <li><a href="#">找租房</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualityLifeItem qualityLife07">        <!--第七项-->
+                            <div class="til">
+                                <img src="images/阿里汽车.jpg"/>
+                                <span class="sys"></span>
+                                <div class="sysShow">
+                                    <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                    <p>手机淘宝扫码</p>
+                                </div>
+                            </div>
+                            <div class="con clearfix">
+                                <div class="conTop clearfix">
+                                    <a href="#" class="conTopLeft">
+                                        <img src="images/天猫开新车.jpg" style="width:90px;"/>
+                                        <p>天猫开新车</p>
+                                        <span>一成首付</span>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conTopRight">
+                                        <img src="images/大牌车品.jpg" style="width:90px;"/>
+                                        <p>大牌车品</p>
+                                        <span>冰点低价</span>
+                                        <div class="marks"></div>
+                                    </a>
+                                </div>
+                                <div class="conBottom">
+                                    <ul class="clearfix">
+                                        <li><a href="#">二手车捡漏</a></li>
+                                        <li><a href="#">订金购车</a></li>
+                                        <li><a href="#">0利率购车</a></li>
+                                        <li><a href="#">车品首发</a></li>
+                                        <li><a href="#">摩托车</a></li>
+                                        <li><a href="#">加油卡充值</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div href="#" class="ifashion02 qualityLifeItem qualityLife08">     <!--第八项-->
+                            <a href="#" class="til">
+                                <img src="images/酷动城.jpg"/>
+                                <!--<span class="sys"></span>
+                                <div class="sysShow">
+                                    <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                    <p>手机淘宝扫码</p>
+                                </div>-->
+                            </a>
+                            <div class="con clearfix">
+                                <div class="conLeft">
+                                    <a href="#" class="conLeftTop">
+                                        <img src="images/足球鞋限时抢.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">足球鞋限时抢</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conLeftBottom">
+                                        <img src="images/运动潮穿必搭.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">运动潮穿必搭</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                </div>
+                                <div class="conRight">
+                                    <a href="#" class="conRightTop">
+                                        <img src="images/专业健身装备.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">专业健身装备</p>
+                                        <div class="marks"></div>
+                                    </a>
+                                    <a href="#" class="conRightBottom">
+                                        <div class="conRightTop">
+                                            <img src="images/全球跑鞋必穿.jpg" style="width:90px;height:90px;"/>
+                                            <p class="descript">全球跑鞋必穿</p>
+                                            <div class="marks"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="characteristiRelish">        <!--特色玩味控-->
+                <div class="characteristiRelishTitle AllTitle">
+							<span class="fashionStoryCon leftRightLine">
+								<span class="titleIcon"></span><i>特色玩味控</i>
+							</span>
+                    <a href="#">更多&gt;</a>
+                </div>
+                <div class="characteristiRelishTop clearfix">
+                    <div href="#" class="ifashion02 characteristiRelishItem characteristiRelish01">     <!--第一项-->
+                        <a href="#" class="til">
+                            <img src="images/潮电街.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </a>
+                        <div class="con clearfix">
+                            <div class="conLeft">
+                                <a href="#" class="conLeftTop">
+                                    <img src="images/智潮新机.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">智潮新机</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conLeftBottom">
+                                    <img src="images/科技数码.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">科技数码</p>
+                                    <div class="marks"></div>
+                                </a>
+                            </div>
+                            <div class="conRight">
+                                <a href="#" class="conRightTop">
+                                    <img src="images/鼠标外设.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">鼠标外设</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conRightBottom">
+                                    <div class="conRightTop">
+                                        <img src="images/火炬家电.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">火炬家电</p>
+                                        <div class="marks"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div href="#" class="ifashion02 characteristiRelishItem characteristiRelish02">     <!--第二项-->
+                        <a href="#" class="til">
+                            <img src="images/淘宝众筹.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </a>
+                        <div class="con clearfix">
+                            <div class="conLeft">
+                                <a href="#" class="conLeftTop">
+                                    <img src="images/智能指纹锁.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">智能指纹锁</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conLeftBottom">
+                                    <img src="images/折叠电动车.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">折叠电动车</p>
+                                    <div class="marks"></div>
+                                </a>
+                            </div>
+                            <div class="conRight">
+                                <a href="#" class="conRightTop">
+                                    <img src="images/炫酷VR体验.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">炫酷VR体验</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conRightBottom">
+                                    <div class="conRightTop">
+                                        <img src="images/龙泉大宝剑.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">龙泉大宝剑</p>
+                                        <div class="marks"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div href="#" class="ifashion02 characteristiRelishItem characteristiRelish03">     <!--第三项-->
+                        <a href="#" class="til">
+                            <img src="images/游戏动漫.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </a>
+                        <div class="con clearfix">
+                            <div class="conLeft">
+                                <a href="#" class="conLeftTop">
+                                    <img src="images/英雄联盟.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">英雄联盟</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conLeftBottom">
+                                    <img src="images/魔兽周边.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">魔兽周边</p>
+                                    <div class="marks"></div>
+                                </a>
+                            </div>
+                            <div class="conRight">
+                                <a href="#" class="conRightTop">
+                                    <img src="images/守望先锋.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">守望先锋</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conRightBottom">
+                                    <div class="conRightTop">
+                                        <img src="images/蕾姆.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">蕾姆</p>
+                                        <div class="marks"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="qualityLifeItem characteristiRelishItem characteristiRelish04">            <!--第四项-->
+                        <div class="til">
+                            <img src="images/淘宝教育.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </div>
+                        <div class="con clearfix">
+                            <div class="conTop clearfix">
+                                <a href="#" class="conTopLeft">
+                                    <img src="images/海外升学置业.jpg" style="width:90px;"/>
+                                    <p>海外升学置业</p>
+                                    <span>免费咨询</span>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conTopRight">
+                                    <img src="images/机动车驾驶证.jpg" style="width:90px;"/>
+                                    <p>机动车驾驶证</p>
+                                    <span>线上报名</span>
+                                    <div class="marks"></div>
+                                </a>
+                            </div>
+                            <div class="conBottom">
+                                <ul class="clearfix">
+                                    <li><a href="#">学历提升</a></li>
+                                    <li><a href="#">口语一对一</a></li>
+                                    <li><a href="#">海外升学</a></li>
+                                    <li><a href="#">专升本</a></li>
+                                    <li><a href="#">驾校学车</a></li>
+                                    <li><a href="#">会计培训</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="characteristiRelishBottom clearfix">
+                    <div href="#" class="ifashion02 characteristiRelishItem characteristiRelish05">     <!--第五项-->
+                        <a href="#" class="til">
+                            <img src="images/特色中国.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </a>
+                        <div class="con clearfix">
+                            <div class="conLeft">
+                                <a href="#" class="conLeftTop">
+                                    <img src="images/纸皮巴旦木.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">纸皮巴旦木</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conLeftBottom">
+                                    <img src="images/酸甜多汁鲜果.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">酸甜多汁鲜果</p>
+                                    <div class="marks"></div>
+                                </a>
+                            </div>
+                            <div class="conRight">
+                                <a href="#" class="conRightTop">
+                                    <img src="images/健康美味必吃.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">健康美味必吃</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conRightBottom">
+                                    <div class="conRightTop">
+                                        <img src="images/纯手工小吃.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">纯手工小吃</p>
+                                        <div class="marks"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div href="#" class="ifashion02 characteristiRelishItem characteristiRelish06">     <!--第六项-->
+                        <a href="#" class="til">
+                            <img src="images/拍卖.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </a>
+                        <div class="con clearfix">
+                            <div class="conLeft">
+                                <a href="#" class="conLeftTop">
+                                    <img src="images/豪车低价.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">豪车低价</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conLeftBottom">
+                                    <img src="images/夏日热卖玉石.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">夏日热卖玉石</p>
+                                    <div class="marks"></div>
+                                </a>
+                            </div>
+                            <div class="conRight">
+                                <a href="#" class="conRightTop">
+                                    <img src="images/名表捡漏.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">名表捡漏</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conRightBottom">
+                                    <div class="conRightTop">
+                                        <img src="images/包治百病03.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">包治百病03</p>
+                                        <div class="marks"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div href="#" class="ifashion02 characteristiRelishItem characteristiRelish07">     <!--第七项-->
+                        <a href="#" class="til">
+                            <img src="images/淘宝花鸟.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </a>
+                        <div class="con clearfix">
+                            <div class="conLeft">
+                                <a href="#" class="conLeftTop">
+                                    <img src="images/桌面鱼缸.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">桌面鱼缸</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conLeftBottom">
+                                    <img src="images/萌萌多肉.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">萌萌多肉</p>
+                                    <div class="marks"></div>
+                                </a>
+                            </div>
+                            <div class="conRight">
+                                <a href="#" class="conRightTop">
+                                    <img src="images/水中精灵.jpg" style="width:90px;height:90px;"/>
+                                    <p class="descript">水中精灵</p>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conRightBottom">
+                                    <div class="conRightTop">
+                                        <img src="images/经典花园植物.jpg" style="width:90px;height:90px;"/>
+                                        <p class="descript">经典花园植物</p>
+                                        <div class="marks"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="qualityLifeItem characteristiRelishItem characteristiRelish08">            <!--第八项-->
+                        <div class="til">
+                            <img src="images/淘宝DIY.jpg"/>
+                            <span class="sys"></span>
+                            <div class="sysShow">
+                                <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                <p>手机淘宝扫码</p>
+                            </div>
+                        </div>
+                        <div class="con clearfix">
+                            <div class="conTop clearfix">
+                                <a href="#" class="conTopLeft">
+                                    <img src="images/手账集市.jpg" style="width:90px;"/>
+                                    <p>手账集市</p>
+                                    <span>温暖幸福角落</span>
+                                    <div class="marks"></div>
+                                </a>
+                                <a href="#" class="conTopRight">
+                                    <img src="images/照片打印.jpg" style="width:90px;"/>
+                                    <p>照片打印</p>
+                                    <span>记录美好生活</span>
+                                    <div class="marks"></div>
+                                </a>
+                            </div>
+                            <div class="conBottom">
+                                <ul class="clearfix">
+                                    <li><a href="#">意念控制器</a></li>
+                                    <li><a href="#">太阳能电池</a></li>
+                                    <li><a href="#">家用投影仪</a></li>
+                                    <li><a href="#">照片打印机</a></li>
+                                    <li><a href="#">直男工具组</a></li>
+                                    <li><a href="#">3D打印笔</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="affordableSpecialist">      <!--实惠专业户-->
+                <div class="affordableSpecialistTitle AllTitle">
+							<span class="affordableSpecialistCon leftRightLine">
+								<span class="titleIcon"></span><i>实惠专业户</i>
+							</span>
+                    <a href="#">更多&gt;</a>
+                </div>
+                <div class="affordableSpecialistCon clearfix">
+                    <div class="affordableSpecialistConLeft">
+                        <div class="asleftTop">
+                            <div class="asLeftTopTitle">
+                                <a href="#" class="til">
+                                    <img src="images/淘抢购.jpg"/>
+                                    <span class="sys"></span>
+                                    <div class="sysShow">
+                                        <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                        <p>手机淘宝扫码</p>
+                                    </div>
+                                    <span class="nowBuy">抢购进行中</span>
+                                </a>
+                            </div>
+                            <div class="asLeftTopcon clearfix">
+                                <div class="asLeftTopconleft">
+                                    <p class="tips"></p>
+                                    <span>公牛USB魔方插座支持快充</span>
+                                    <span class="price">&yen;65</span>
+                                    <span class="sale">已抢购76件</span>
+                                </div>
+                                <div class="asLeftTopconright">
+                                    <img src="images/魔方插座.jpg" style="width:90px;height:90px;"/>
+                                    <div class="marks"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="asleftbottom">
+                            <div class="asLeftTopTitle">
+                                <a href="#" class="til">
+                                    <img src="images/量贩团.jpg"/>
+                                    <span class="sys"></span>
+                                    <div class="sysShow">
+                                        <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                        <p>手机淘宝扫码</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="asLeftTopcon asleftbottomcon clearfix">
+                                <div class="asLeftTopconleft">
+                                    <p class="tips">0.01元疯抢</p>
+                                    <p>超值付邮领</p>
+                                    <a href="#" class="buy">先买后用</a>
+                                </div>
+                                <div class="asLeftTopconright">
+                                    <img src="images/酸奶.jpg" style="width:90px;height:90px;"/>
+                                    <div class="marks"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="affordableSpecialistConRight">
+                        <div class="affordableSpecialistConRightTop">
+                            <div class="asleftbottom asConRight asConRight01">            <!--实惠专业户右边01-->
+                                <div class="asLeftTopTitle">
+                                    <a href="#" class="til">
+                                        <img src="images/天天特价.jpg"/>
+                                        <span class="sys"></span>
+                                        <div class="sysShow">
+                                            <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                            <p>手机淘宝扫码</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="asLeftTopcon asleftbottomcon clearfix">
+                                    <div class="asLeftTopconleft asConRightTop">
+                                        <p class="tips">优质好货</p>
+                                        <p>特价专区</p>
+                                        <a href="#" class="buy">全场包邮</a>
+                                    </div>
+                                    <div class="asLeftTopconright">
+                                        <img src="images/天天特价pic.jpg" style="width:90px;height:90px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="asleftbottom asConRight asConRight02">            <!--实惠专业户右边02-->
+                                <div class="asLeftTopTitle">
+                                    <a href="#" class="til">
+                                        <img src="images/淘金币.jpg"/>
+                                        <span class="sys"></span>
+                                        <div class="sysShow">
+                                            <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                            <p>手机淘宝扫码</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="asLeftTopcon asleftbottomcon clearfix">
+                                    <div class="asLeftTopconleft asConRightTop">
+                                        <p class="tips">异域风味</p>
+                                        <p>台湾美食</p>
+                                        <a href="#" class="buy">全场低价</a>
+                                    </div>
+                                    <div class="asLeftTopconright">
+                                        <img src="images/淘金币pic.jpg" style="width:90px;height:90px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="asleftbottom asConRight asConRight03">            <!--实惠专业户右边03-->
+                                <div class="asLeftTopTitle">
+                                    <a href="#" class="til">
+                                        <img src="images/10元包邮.jpg"/>
+                                        <span class="sys"></span>
+                                        <div class="sysShow">
+                                            <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                            <p>手机淘宝扫码</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="asLeftTopcon asleftbottomcon clearfix">
+                                    <div class="asLeftTopconleft asConRightTop">
+                                        <p class="tips">优质好货</p>
+                                        <p>全场包邮</p>
+                                        <a href="#" class="buy">限量必抢</a>
+                                    </div>
+                                    <div class="asLeftTopconright">
+                                        <img src="images/10元包邮pic.jpg" style="width:90px;height:90px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="affordableSpecialistConRightBottom">
+                            <div class="asleftbottom asConRight asConRight04">            <!--实惠专业户右边04-->
+                                <div class="asLeftTopTitle">
+                                    <a href="#" class="til">
+                                        <img src="images/聚名品.jpg"/>
+                                        <span class="sys"></span>
+                                        <div class="sysShow">
+                                            <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                            <p>手机淘宝扫码</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="asLeftTopcon asleftbottomcon clearfix">
+                                    <div class="asLeftTopconleft asConRightTop">
+                                        <p class="tips">奢品底价购</p>
+                                        <p>网红最爱</p>
+                                        <a href="#" class="buy">剁手</a>
+                                    </div>
+                                    <div class="asLeftTopconright">
+                                        <img src="images/聚名品pic.jpg" style="width:90px;height:90px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="asleftbottom asConRight asConRight05">            <!--实惠专业户右边05-->
+                                <div class="asLeftTopTitle">
+                                    <a href="#" class="til">
+                                        <img src="images/品牌OutLets.jpg"/>
+                                        <span class="sys"></span>
+                                        <div class="sysShow">
+                                            <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                            <p>手机淘宝扫码</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="asLeftTopcon asleftbottomcon clearfix">
+                                    <div class="asLeftTopconleft asConRightTop">
+                                        <p class="tips">大牌长驻</p>
+                                        <p>正品尾货抢</p>
+                                        <a href="#" class="buy">365天超低价</a>
+                                    </div>
+                                    <div class="asLeftTopconright">
+                                        <img src="images/品牌OutLetspic.jpg" style="width:90px;height:90px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="asleftbottom asConRight asConRight06">            <!--实惠专业户右边06-->
+                                <div class="asLeftTopTitle">
+                                    <a href="#" class="til">
+                                        <img src="images/阿里试用.jpg"/>
+                                        <span class="sys"></span>
+                                        <div class="sysShow">
+                                            <img src="images/sysShow.webp" style="width:60px;height:60px"/>
+                                            <p>手机淘宝扫码</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="asLeftTopcon asleftbottomcon clearfix">
+                                    <div class="asLeftTopconleft asConRightTop">
+                                        <p class="tips">0元免费试</p>
+                                        <p>大牌新品</p>
+                                        <a href="#" class="buy blueColor">先试后买</a>
+                                    </div>
+                                    <div class="asLeftTopconright">
+                                        <img src="images/阿里试用pic.jpg" style="width:90px;height:90px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="advertise">               <!--一条广告-->
+                <a href="#">
+                    <img src="images/夏日狂欢节.jpg"/>
+                </a>
+            </div>
+
+        </div>
+        <div class="mainRight">                                <!--右侧部分-->
+            <div class="loginReportNotice">
+                <div class="mainRightlogin">     <!--右侧登录部分-->
+                    <div class="headPortrait">     <!--headPortrait人物头像-->
+                        <a href="#">
+                            <img src="images/登录头像.jpg"/>
+                        </a>
+                    </div>
+                    <span class="hello">Hi! 你好</span>
+                    <p class="goldWashingAndClud"><a href="#"><i class="goldWashingIcon"></i>领淘金币抵钱</a>或去<a href="#">会员俱乐部</a>
+                    </p>
+                    <div class="loReOp clearfix">
+                        <a class="lo" href="#">
+                            登录
+                        </a>
+                        <a class="re" href="#">
+                            注册
+                        </a>
+                        <a class="op" href="#">
+                            开店
+                        </a>
+                    </div>
+                </div>
+                <a class="mainRightReport">      <!--右侧举报部分-->
+                    网上有害信息举报专区<span class="triangle pois"></span>    <!--triangle三角形-->
+                </a>
+                <div class="mainRightNotice">    <!--右侧公告部分-->
+                    <ul class="mainRightNoticeFirst clearfix">
+                        <li>
+                            <a class="selected" href="#">公告</a>
+                        </li>
+                        <li><a class="" href="#">规则</a></li>
+                        <li><a class="" href="#">论坛</a></li>
+                        <li><a class="" href="#">安全</a></li>
+                        <li><a class="" href="#">公益</a></li>
+                    </ul>
+                    <ul class="mainRightNoticeList clearfix">
+                        <li><a class="color" href="#">阿里CEO张勇：零售和科技结合才能催生新零售</a></li>
+                        <li><a href="#">盒马引领新零售变革</a></li>
+                        <li><a href="#">阿里市值首破4千亿美元</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="application">   <!--淘宝部分应用-->
+                <ul class="applicationList clearfix">
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon01"></span>
+                            <p>充话费</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon02"></span>
+                            <p>游戏</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon03"></span>
+                            <p>旅行</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon04"></span>
+                            <p>车险</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon05"></span>
+                            <p>彩票</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon06"></span>
+                            <p>电影</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon07"></span>
+                            <p>酒店</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon08"></span>
+                            <p>理财</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon09"></span>
+                            <p>找服务</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon10"></span>
+                            <p>演出</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon11"></span>
+                            <p>水电煤</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="applicationIcon aicon12"></span>
+                            <p>火车票</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="aliApp">        <!--阿里部分APP-->
+                <h3 class="clearfix"><span>阿里APP</span><a href="#" class="more">更多﹥</a></h3>
+                <ul class="aliAppList clearfix">
+                    <li><a href="#"><img src="images/淘宝ico.png"/></a>
+                        <div class="QRcode tbQR"><p>扫一扫淘宝</p></div>
+                    </li>
+                    <li><a href="#"><img src="images/天猫ico.png"/></a>
+                        <div class="QRcode tbQR"><p>扫一扫淘宝</p></div>
+                    </li>
+                    <li><a href="#"><img src="images/聚划算ico.png"/></a>
+                        <div class="QRcode tbQR"><p>扫一扫淘宝</p></div>
+                    </li>
+                    <li><a href="#"><img src="images/支付宝ico.png"/></a>
+                        <div class="QRcode tbQR"><p>扫一扫淘宝</p></div>
+                    </li>
+                    <li><a href="#"><img src="images/旺旺ico.png"/></a>
+                        <div class="QRcode tbQR"><p>扫一扫淘宝</p></div>
+                    </li>
+                    <li><a href="#"><img src="images/蚂蚁聚宝ico.png"/></a>
+                        <div class="QRcode tbQR"><p>扫一扫淘宝</p></div>
+                    </li>
+                    <li><a href="#"><img src="images/钱盾ico.png"/></a>
+                        <div class="QRcode tbQR"><p>扫一扫淘宝</p></div>
+                    </li>
+                    <li><a href="#"><img src="images/高德ico.png"/></a>
+                        <div class="QRcode tbQR"><p>扫一扫淘宝</p></div>
+                    </li>
+                    <li><a href="#"><img src="images/飞猪ico.png"/></a>
+                        <div class="QRcode tbQR"><p>扫一扫淘宝</p></div>
+                    </li>
+                    <li><a href="#"><img src="images/虾米ico.png"/></a>
+                        <div class="QRcode tbQR"><p>扫一扫淘宝</p></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="headlines">     <!--头条-->
+                <h3 class="clearfix"><a href="#" class="more">更多﹥</a></h3>
+                <ul class="headlinesList">
+                    <li class="clearfix">
+                        <a href="#">
+                            <div class="headlinesListleft">
+                                <img src="images/华为.jpg" style="height:30px;"/>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="headlinesListright">
+                                <h4>不管你爱或不爱，国产机华为OV依旧强势</h4>
+                                <p>
+                                    近日，迪信通联合零点有数发布了5月份国内手机销量报告。作为国内最大的手机连锁企业，迪信通全渠道数据大致能反映各手机企业的市场状况。从数据来看，华为排名第一，份额高达23%，比4月份的数据还要好。这也说明，华为手机并未受到网络舆论的影响，良好的体验，才是消费者关注的。今年5月，华为</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="goodGoods">      <!--有好货-->
+                <h3 class="goodGoodsTitle"></h3>
+                <ul class="goodGoodsList">
+                    <li class="clearfix goodGoodsList01">        <!--有好货01-->
+                        <a href="#">
+                            <div class="goodGoodsListLeft">
+                                <img src="images/印花T恤.jpg" style="width:90px;"/>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="goodGoodsListRight">
+                                <h3>Desigual不规则印花T恤</h3>
+                                <p>黑红条纹与不规则抽象图案尽情组合，展现玩味特性</p>
+                                <em>55 人说好</em>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clearfix goodGoodsList02">        <!--有好货02-->
+                        <a href="#">
+                            <div class="goodGoodsListLeft">
+                                <img src="images/印花桑蚕丝.jpg" style="width:90px;"/>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="goodGoodsListRight">
+                                <h3>印花桑蚕丝中袖衬衫</h3>
+                                <p>简单的花色，透露出淑女的气息；宽松的桑蚕丝上衣，凉爽又舒适。</p>
+                                <em>27 人说好</em>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clearfix goodGoodsList03">       <!--有好货03-->
+                        <a href="#">
+                            <div class="goodGoodsListLeft">
+                                <img src="images/欧尚尼T恤.jpg" style="width:90px;"/>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="goodGoodsListRight">
+                                <h3>欧尚尼 纯棉露肩T恤</h3>
+                                <p>
+                                    欧尚尼是源自于意大利的品牌，为穿衣者提供在不同场合，都能尽情展现自身魅力与自信的时尚穿搭。简洁不失大气的圆领修饰脸型，精选纯棉面料舒适亲肤，别致的露肩设计将女性的性感小心机展现无遗，荷叶边拼接更显层次感，清新自然的纯色款式透着简约之美。</p>
+                                <em>7 人说好</em>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clearfix goodGoodsList04">        <!--有好货04-->
+                        <a href="#">
+                            <div class="goodGoodsListLeft">
+                                <img src="images/不规则半身长裙.jpg" style="width:90px;"/>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="goodGoodsListRight">
+                                <h3>不规则半身长裙</h3>
+                                <p>裙身不规则的拼接个性十足，条纹的点缀更显休闲！</p>
+                                <em>3 人说好</em>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clearfix goodGoodsList05">         <!--有好货05-->
+                        <a href="#">
+                            <div class="goodGoodsListLeft">
+                                <img src="images/Bob'sRedMill即食酵母粉.jpg" style="width:90px;"/>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="goodGoodsListRight">
+                                <h3>Bob's Red Mill 即食酵母粉</h3>
+                                <p>含丰富的B族维生素，具有干奶酪的鲜美口感，营养丰富。</p>
+                                <em>8 人说好</em>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clearfix goodGoodsList06">         <!--有好货06-->
+                        <a href="#">
+                            <div class="goodGoodsListLeft">
+                                <img src="images/鞋友必藏.jpg" style="width:90px;"/>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="goodGoodsListRight">
+                                <h3>【鞋友必藏】Air</h3>
+                                <p>此款AJ 12
+                                    Wing限量12000双带编号以及超级酷炫的刮刮乐效果让它备受关注。黑白皮质的鞋面质感十足，酷炫惹眼，点缀的金属扣和鞋侧带wings字样的金色帅翻全场。鞋身非常饱满，原来Jordan刺绣的地方改成了帮主展臂的剪影，也象征了Wings的由来。巨大的碳板和水晶底，露出的wings图案呼应主题。</p>
+                                <em>197 人说好</em>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clearfix goodGoodsList07">            <!--有好货07-->
+                        <a href="#">
+                            <div class="goodGoodsListLeft">
+                                <img src="images/Champion刺绣小LOGO短袖.jpg" style="width:90px;"/>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="goodGoodsListRight">
+                                <h3>Champion刺绣小LOGO短袖</h3>
+                                <p>小小的Champion Logo，就满足了夏季众多搭配需求。</p>
+                                <em>1107 人说好</em>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clearfix goodGoodsList08">              <!--有好货08-->
+                        <a href="#">
+                            <div class="goodGoodsListLeft">
+                                <img src="images/条纹连衣裙.jpg" style="width:90px;"/>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="goodGoodsListRight">
+                                <h3>条纹连衣裙</h3>
+                                <p>
+                                    一款经典条纹雪纺连衣裙，裙子长度也恰到好处的展现高挑身姿。后身的隐形拉链设计，拉合顺畅让穿脱更方便。裙摆处拼接今年很流畅的配色网纱面料，更显时髦又魅力呢，穿上让萌宝宝们时尚时髦。腰间的收腰设计合体穿着，更加显瘦有型。</p>
+                                <em>4 人说好</em>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clearfix goodGoodsList09">              <!--有好货09-->
+                        <a href="#">
+                            <div class="goodGoodsListLeft">
+                                <img src="images/mr.baby女童金属扣流苏凉鞋.jpg" style="width:90px;"/>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="goodGoodsListRight">
+                                <h3>mr.baby女童金属扣流苏凉鞋</h3>
+                                <p>流苏穗在条纹和麻花编织的鞋面上装饰，让这款鞋子很是时尚。</p>
+                                <em>16 人说好</em>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="clearfix goodGoodsList10">              <!--有好货10-->
+                        <a href="#">
+                            <div class="goodGoodsListLeft">
+                                <img src="images/宁夏中宁特产无硫构杞.jpg" style="width:90px;"/>
+                                <div class="marks"></div>
+                            </div>
+                            <div class="goodGoodsListRight">
+                                <h3>宁夏中宁特产无硫构杞</h3>
+                                <p>枸杞不染色不熏硫，不黏手也不结块，干燥度高，入口微甜略带苦味</p>
+                                <em>7 人说好</em>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="changePro"></i>换一组看看</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="goodShop">       <!---每日好店-->
+                <h3 class="goodShopTitle"></h3>
+                <ul class="goodShopList">
+                    <li class="goodShopListItem goodShopListItem01">    <!--每日好店01-->
+                        <a href="#">
+                            <h4>今日推荐</h4>
+                            <p class="evaluate">暂无评价</p>
+                            <div class="goodShopItemCon clearfix">
+                                <div class="goodShopItemConLeft">
+                                    <div class="goodShopItemConLeftTop">
+                                        <img src="images/推荐01.jpg" style="width:89px; height:89px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                    <div class="goodShopItemConLeftBottom">
+                                        <img src="images/推荐02.jpg" style="width:89px; height:89px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                                <div class="goodShopItemConRight">
+                                    <img src="images/推荐03.jpg" style="width:180px;height:180px;"/>
+                                    <div class="marks"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="goodShopListItem goodShopListItem02">    <!--每日好店02-->
+                        <a href="#">
+                            <h4>推荐栏目</h4>
+                            <p class="evaluate">暂无评价</p>
+                            <div class="goodShopItemCon clearfix">
+                                <div class="goodShopItemConLeft">
+                                    <div class="goodShopItemConLeftTop">
+                                        <img src="images/推荐栏目01.jpg" style="width:89px; height:89px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                    <div class="goodShopItemConLeftBottom">
+                                        <img src="images/推荐栏目02.jpg" style="width:89px; height:89px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                                <div class="goodShopItemConRight">
+                                    <img src="images/推荐栏目03.jpg" style="width:180px;height:180px;"/>
+                                    <div class="marks"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="goodShopListItem goodShopListItem03">    <!--每日好店03-->
+                        <a href="#">
+                            <h4>包包控</h4>
+                            <p class="evaluate">暂无评价</p>
+                            <div class="goodShopItemCon clearfix">
+                                <div class="goodShopItemConLeft">
+                                    <div class="goodShopItemConLeftTop">
+                                        <img src="images/包包控01.jpg" style="width:89px; height:89px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                    <div class="goodShopItemConLeftBottom">
+                                        <img src="images/包包控02.jpg" style="width:89px; height:89px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                                <div class="goodShopItemConRight">
+                                    <img src="images/包包控03.jpg" style="width:180px;height:180px;"/>
+                                    <div class="marks"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="goodShopListItem goodShopListItem04">    <!--每日好店04-->
+                        <a href="#">
+                            <h4>吃吃吃</h4>
+                            <p class="evaluate">暂无评价</p>
+                            <div class="goodShopItemCon clearfix">
+                                <div class="goodShopItemConLeft">
+                                    <div class="goodShopItemConLeftTop">
+                                        <img src="images/吃吃吃01.jpg" style="width:89px; height:89px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                    <div class="goodShopItemConLeftBottom">
+                                        <img src="images/吃吃吃02.jpg" style="width:89px; height:89px;"/>
+                                        <div class="marks"></div>
+                                    </div>
+                                </div>
+                                <div class="goodShopItemConRight">
+                                    <img src="images/吃吃吃03.jpg" style="width:180px;height:180px;"/>
+                                    <div class="marks"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="changePro"></i>查看更多好店</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hotDay">        <!--今日热卖-->
+                <h3 class="hotDayTitle">今日热卖</h3>
+                <a href="#" class="hotCon">
+                    <img src="images/聚划算家具.jpg" style="width:285px;height:240px;"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="bottomPro">   <!-- 底部产品-->
+    <div class="w">
+        <div class="hotItem">           <!--热卖单品-->
+            <div class="hotItemTitle AllTitle">
+					<span class="hotItemCon leftRightLine">
+						<span class="titleIcon"></span><i>热卖单品</i>
+					</span>
+            </div>
+            <ul class="proList clearfix">
+                <li><a href="#">客厅灯</a></li>
+                <li><a href="#">冲锋衣</a></li>
+                <li><a href="#">床垫</a></li>
+                <li><a href="#">沙发垫</a></li>
+                <li><a href="#">男内裤</a></li>
+                <li><a href="#">电脑椅</a></li>
+                <li><a href="#">鞋柜</a></li>
+                <li><a href="#">窗帘</a></li>
+                <li><a href="#">椅子</a></li>
+                <li><a href="#">电脑桌</a></li>
+                <li><a href="#">收纳箱</a></li>
+                <li><a href="#">拉杆箱</a></li>
+                <li><a href="#">衣柜</a></li>
+                <li><a href="#">面膜</a></li>
+                <li><a href="#">沙发</a></li>
+                <li><a href="#">t恤男</a></li>
+                <li><a href="#">男T恤</a></li>
+                <li><a href="#">男包</a></li>
+                <li><a href="#">凉鞋男</a></li>
+                <li><a href="#">运动鞋</a></li>
+                <li><a href="#">短裤男</a></li>
+                <li><a href="#">衬衫</a></li>
+                <li><a href="#">钱包</a></li>
+                <li><a href="#">充电宝</a></li>
+            </ul>
+            <div class="hotItemCon">
+                <ul class="hotItemConList clearfix">
+                    <li class="hotItemCon01 hotItemConType01">        <!--热卖单品01-->
+                        <div class="hotItemConInner">
+                            <div class="hotItemConType01Top marksPare">
+                                <a href="#" style="display:block;">
+                                    <img src="images/羊驼毛衣.jpg" style="width:214px;height:214px;"/>
+                                </a>
+                                <a href="#" class="marks02">
+                                    <div class="desBox">
+                                        <p class="marks02Des">优惠促销</p>
+                                        <span href="#">去看看</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotItemConType01Bottom">
+                                <p class="hotItemprice"><a href="#">&yen;1880.00</a></p>
+                                <p class="hotItemsale"><a href="#">月销<i>11</i>笔</a></p>
+                                <p class="proDes">
+                                    <a href="#">羊驼毛特殊的中空结构使得其更加的轻薄有弹性</a>
+                                </p>
+                            </div>
+                            <div class="pinglun">
+                                <a href="#">评论 <em>0</em></a>
+                                <a href="#">收藏 <i>2648</i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hotItemCon02 hotItemConType02">        <!--热卖单品02,03-->
+                        <div class="hotItemConInner">
+                            <div class="hotItemConType02Top marksPare">
+                                <a href="#" style="display:block;">
+                                    <img src="images/正品夏季桑蚕丝短.jpg" style="width:140px;height:140px;"/>
+                                </a>
+                                <a href="#" class="marks02">
+                                    <div class="desBox">
+                                        <p class="marks02Des">活动价:正品夏季桑蚕丝短</p>
+                                        <span href="#">去看看</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotItemConType02Bottom">
+                                <p class="hotItemprice"><a href="#">&yen;368.00</a></p>
+                                <p class="hotItemsale"><a href="#">月销<i>11</i>笔</a></p>
+                            </div>
+                        </div>
+                        <div class="hotItemConInner">
+                            <div class="hotItemConType02Top marksPare">
+                                <a href="#" style="display:block;">
+                                    <img src="images/美式实木书柜架自.jpg" style="width:140px;height:140px;"/>
+                                </a>
+                                <a href="#" class="marks02">
+                                    <div class="desBox">
+                                        <p class="marks02Des">卖家促销:美式实木书柜架自</p>
+                                        <span href="#">去看看</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotItemConType02Bottom">
+                                <p class="hotItemprice"><a href="#">&yen;969.00</a></p>
+                                <p class="hotItemsale"><a href="#">月销<i>9</i>笔</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hotItemCon01 hotItemConType01">        <!--热卖单品04-->
+                        <div class="hotItemConInner">
+                            <div class="hotItemConType01Top marksPare">
+                                <a href="#" style="display:block;">
+                                    <img src="images/品牌钜惠红木茶桌花梨木刺.jpg" style="width:214px;height:214px;"/>
+                                </a>
+                                <a href="#" class="marks02">
+                                    <div class="desBox">
+                                        <p class="marks02Des">品牌钜惠:红木茶桌花梨木刺</p>
+                                        <span href="#">去看看</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotItemConType01Bottom">
+                                <p class="hotItemprice"><a href="#">&yen;10000.00</a></p>
+                                <p class="hotItemsale"><a href="#">月销<i>11</i>笔</a></p>
+                                <p class="proDes">
+                                    <a href="#">果然一分钱买一分货,我觉得挺好的。</a>
+                                </p>
+                            </div>
+                            <div class="pinglun">
+                                <a href="#">评论 <em>10</em></a>
+                                <a href="#">收藏 <i>192</i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hotItemCon02 hotItemConType02">        <!--热卖单品05,06-->
+                        <div class="hotItemConInner">
+                            <div class="hotItemConType02Top marksPare">
+                                <a href="#" style="display:block;">
+                                    <img src="images/淘优惠北欧实木简约书房.jpg" style="width:140px;height:140px;"/>
+                                </a>
+                                <a href="#" class="marks02">
+                                    <div class="desBox">
+                                        <p class="marks02Des">淘优惠:北欧实木简约书房</p>
+                                        <span href="#">去看看</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotItemConType02Bottom">
+                                <p class="hotItemprice"><a href="#">&yen;5300.00</a></p>
+                                <p class="hotItemsale"><a href="#">月销<i>1</i>笔</a></p>
+                            </div>
+                        </div>
+                        <div class="hotItemConInner">
+                            <div class="hotItemConType02Top marksPare">
+                                <a href="#" style="display:block;">
+                                    <img src="images/淘优惠红木家具紫光檀置.jpg" style="width:140px;height:140px;"/>
+                                </a>
+                                <a href="#" class="marks02">
+                                    <div class="desBox">
+                                        <p class="marks02Des">淘优惠:红木家具紫光檀置</p>
+                                        <span href="#">去看看</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotItemConType02Bottom">
+                                <p class="hotItemprice"><a href="#">&yen;50000.00</a></p>
+                                <p class="hotItemsale"><a href="#">月销<i>0</i>笔</a></p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="hotItemCon01 hotItemConType01">        <!--热卖单品07-->
+                        <div class="hotItemConInner">
+                            <div class="hotItemConType01Top marksPare">
+                                <a href="#" style="display:block;">
+                                    <img src="images/淘优惠冉氏红木黑檀雕龙.jpg" style="width:214px;height:214px;"/>
+                                </a>
+                                <a href="#" class="marks02">
+                                    <div class="desBox">
+                                        <p class="marks02Des">淘优惠:冉氏红木黑檀雕龙</p>
+                                        <span href="#">去看看</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotItemConType01Bottom">
+                                <p class="hotItemprice"><a href="#">&yen;5580.00</a></p>
+                                <p class="hotItemsale"><a href="#">月销<i>0</i>笔</a></p>
+                                <p class="proDes">
+                                    <a href="#">掌柜人不错,服务好热情的!</a>
+                                </p>
+                            </div>
+                            <div class="pinglun">
+                                <a href="#">评论 <em>0</em></a>
+                                <a href="#">收藏 <i>142</i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hotItemCon02 hotItemConType02">        <!--热卖单品08,09-->
+                        <div class="hotItemConInner">
+                            <div class="hotItemConType02Top marksPare">
+                                <a href="#" style="display:block;">
+                                    <img src="images/促销活动定制 黑胡桃木书.jpg" style="width:140px;height:140px;"/>
+                                </a>
+                                <a href="#" class="marks02">
+                                    <div class="desBox">
+                                        <p class="marks02Des">促销活动:定制 黑胡桃木书</p>
+                                        <span href="#">去看看</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotItemConType02Bottom">
+                                <p class="hotItemprice"><a href="#">&yen;8120.00</a></p>
+                                <p class="hotItemsale"><a href="#">月销<i>0</i>笔</a></p>
+                            </div>
+                        </div>
+                        <div class="hotItemConInner">
+                            <div class="hotItemConType02Top marksPare">
+                                <a href="#" style="display:block;">
+                                    <img src="images/买就减自由组合原木书橱.jpg" style="width:140px;height:140px;"/>
+                                </a>
+                                <a href="#" class="marks02">
+                                    <div class="desBox">
+                                        <p class="marks02Des">买就减:自由组合原木书橱</p>
+                                        <span href="#">去看看</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="hotItemConType02Bottom">
+                                <p class="hotItemprice"><a href="#">&yen;3680.00</a></p>
+                                <p class="hotItemsale"><a href="#">月销<i>3</i>笔</a></p>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="hotItemConList02 clearfix">
+                    <div class="hotItemConItem hotItemConItem01"><a href="#"><img src="images/挑战低价.jpg"
+                                                                                  style="width:375px;height:130px;"/></a>
+                    </div>
+                    <div class="hotItemConItem hotItemConItem02"><a href="#"><img src="images/厨卫装修.jpg"
+                                                                                  style="width:375px;height:130px;"/></a>
+                    </div>
+                    <div class="hotItemConItem hotItemConItem03"><a href="#"><img src="images/第二件半价.jpg"
+                                                                                  style="width:375px;height:130px;"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mustBuyList">       <!--必买清单-->
+            <div class="mustBuyListTitle AllTitle">
+					<span class="mustBuyListCon leftRightLine">
+						<span class="titleIcon"></span><i>必买清单</i>
+					</span>
+            </div>
+            <div class="mustBuyListCon clearfix">
+                <a href="#" class="mustBuyListConItem mustBuyListConItem01">      <!--必买清单第一项-->
+                    <h3>2017热播美剧，引爆时尚圈</h3>
+                    <p class="mustBuyListConItemDes">
+                        要说时尚剧啊，某芒播出的一些青春爱情偶像剧，大概就是当下国内最热了。额但是呢，时尚元素可圈可点的地方不多，说明咱时尚片进步空间很大啊！今天小编要讲解5部时尚界和影视圈内不老传说之骨灰级别的电影。✿【穿</p>
+                    <ul class="clearfix">
+                        <li><img src="images/mustBuyListConItem01-1.jpg_180x180q70"/></li>
+                        <li><img src="images/mustBuyListConItem01-2.jpg_180x180q70"/></li>
+                        <li><img src="images/mustBuyListConItem01-3.jpg_180x180q70"/></li>
+                    </ul>
+                    <p class="fromWho">搭配师格子 分享10个宝贝</p>
+                </a>
+                <a href="#" class="mustBuyListConItem mustBuyListConItem02">      <!--必买清单第二项-->
+                    <h3>47岁奶奶逆袭：大长腿少女颜</h3>
+                    <p class="mustBuyListConItemDes">
+                        47岁可以去跳广场舞了吧，但ins上有个47岁的女人，身材样貌和年龄严重不符，像个少女就算了，还是个奶奶辈！当你奶奶去菜市买肉的时候，她在海边秀性感大长腿，每天研究今天穿什么最美……她叫zaklina</p>
+                    <ul class="clearfix">
+                        <li><img src="images/mustBuyListConItem02-1.jpg_180x180q70"/></li>
+                        <li><img src="images/mustBuyListConItem02-2.jpg_180x180q70"/></li>
+                        <li><img src="images/mustBuyListConItem02-3.png_180x180q70"/></li>
+                    </ul>
+                    <p class="fromWho">唠叨十三姨 分享12个宝贝</p>
+                </a>
+                <a href="#" class="mustBuyListConItem mustBuyListConItem03">      <!--必买清单第三项-->
+                    <h3> 惊！国外这些内衣颜好还舒适</h3>
+                    <p class="mustBuyListConItemDes">
+                        还在穿丑哭的大妈式内衣？那就更应该来看看国外这些貌美如花的内衣了！它们还非常舒适，所以在这个讲求减压的年代，难怪无钢圈内衣会流行起来！为什么说它流行呢，因为今年有一个词叫bralette。bralet</p>
+                    <ul class="clearfix">
+                        <li><img src="images/mustBuyListConItem03-1.jpg_180x180q70"/></li>
+                        <li><img src="images/mustBuyListConItem03-2.jpg_180x180q70"/></li>
+                        <li><img src="images/mustBuyListConItem03-3.jpg_180x180q70"/></li>
+                    </ul>
+                    <p class="fromWho">大象姑娘 分享9个宝贝</p>
+                </a>
+                <a href="#" class="mustBuyListConItem mustBuyListConItem04">      <!--必买清单第四项-->
+                    <h3> 这些衬衫你要知道，更要会穿！</h3>
+                    <p class="mustBuyListConItemDes">
+                        衬衫控，看过来！俗话说：女人的衣橱里面，怎么少得了一件具备质感的衬衫？一个会穿并且将衬衫穿出质感的姑娘更加性感有魅力，我很同意这样的说法！“设计湿”的心灵手巧、大刀阔斧，咔咔咔，多样化的衬衫款式分分钟</p>
+                    <ul class="clearfix">
+                        <li><img src="images/mustBuyListConItem04-1.jpg_180x180q70"/></li>
+                        <li><img src="images/mustBuyListConItem04-2.jpg_180x180q70"/></li>
+                        <li><img src="images/mustBuyListConItem04-3.jpg_180x180q70"/></li>
+                    </ul>
+                    <p class="fromWho">小狐狸style 分享10个宝贝</p>
+                </a>
+            </div>
+        </div>
+        <div class="GuessYouLike">      <!--猜你喜欢-->
+            <div class="GuessYouLikeTitle AllTitle">
+					<span class="GuessYouLikeCon leftRightLine">
+						<span class="titleIcon"></span><i>猜你喜欢</i>
+					</span>
+            </div>
+            <ul class="GuessYouLikeList clearfix">
+                <li class="GuessYouLikeListItem GuessYouLikeListItem01">          <!--猜你喜欢01-->
+                    <a class="GuessYouLikeListItemCon" href="#">
+                        <div class="GuessYouLikeListItemTop">
+                            <img src="images/笔记本CPU.jpg" style="width:221px;height:220px;"/>
+                        </div>
+                        <div class="GuessYouLikeListItemBottom">
+                            <h3>全新现货 Intel Core i5-3380M SR0X9 原装BGA 笔记本CPU</h3>
+                            <div class="priceAndSale">
+                                <span class="price"><i class="GuessYouLikeHot"></i>&yen;500</span>
+                                <!-- <span class="sale">销量：<i class="num">1</i></span>-->
+                            </div>
+                        </div>
+                    </a>
+                    <a class="findMore" href="#">
+                        <p class="find">找相似</p>
+                        <p class="findDec">发现更多相似宝贝<span></span></p>
+                    </a>
+                </li>
+
+                <li class="GuessYouLikeListItem GuessYouLikeListItem02">          <!--猜你喜欢02-->
+                    <a class="GuessYouLikeListItemCon" href="#">
+                        <div class="GuessYouLikeListItemTop">
+                            <img src="images/单件蕾丝衫.jpg" style="width:221px;height:220px;"/>
+                        </div>
+                        <div class="GuessYouLikeListItemBottom">
+                            <h3>春季七分袖新款修身上衣POLO领女装通勤打底短款雪纺衫单件蕾丝衫</h3>
+                            <div class="priceAndSale">
+                                <span class="price"><i class="GuessYouLikeHot"></i>&yen;110</span>
+                                <!--<span class="sale">销量：<i class="num">1</i></span>-->
+                            </div>
+                        </div>
+                    </a>
+                    <a class="findMore" href="#">
+                        <p class="find">找相似</p>
+                        <p class="findDec">发现更多相似宝贝<span></span></p>
+                    </a>
+                </li>
+                <li class="GuessYouLikeListItem GuessYouLikeListItem03">          <!--猜你喜欢03-->
+                    <a class="GuessYouLikeListItemCon" href="#">
+                        <div class="GuessYouLikeListItemTop">
+                            <img src="images/卧室家具.jpg" style="width:221px;height:220px;"/>
+                        </div>
+                        <div class="GuessYouLikeListItemBottom">
+                            <h3>整体书房定制榻榻米整体儿童房衣柜定制飘窗塌塌米升降机卧室家具</h3>
+                            <div class="priceAndSale">
+                                <span class="price"><i class="GuessYouLikeHot"></i>&yen;660</span>
+                                <span class="sale">销量：<i class="num">3</i></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="findMore" href="#">
+                        <p class="find">找相似</p>
+                        <p class="findDec">发现更多相似宝贝<span></span></p>
+                    </a>
+                </li>
+                <li class="GuessYouLikeListItem GuessYouLikeListItem04">          <!--猜你喜欢04-->
+                    <a class="GuessYouLikeListItemCon" href="#">
+                        <div class="GuessYouLikeListItemTop">
+                            <img src="images/公路赛摩.jpg" style="width:221px;height:220px;"/>
+                        </div>
+                        <div class="GuessYouLikeListItemBottom">
+                            <h3>全新可上牌川崎小忍者250CC地平线摩托车跑车街车助力车公路赛摩</h3>
+                            <div class="priceAndSale">
+                                <span class="price"><i class="GuessYouLikeHot"></i>&yen;4980</span>
+                                <!--<span class="sale">销量：<i class="num">1</i></span>-->
+                            </div>
+                        </div>
+                    </a>
+                    <a class="findMore" href="#">
+                        <p class="find">找相似</p>
+                        <p class="findDec">发现更多相似宝贝<span></span></p>
+                    </a>
+                </li>
+                <li class="GuessYouLikeListItem GuessYouLikeListItem05">          <!--猜你喜欢05-->
+                    <a class="GuessYouLikeListItemCon" href="#">
+                        <div class="GuessYouLikeListItemTop">
+                            <img src="images/百搭雪纺衫上衣.jpg" style="width:221px;height:220px;"/>
+                        </div>
+                        <div class="GuessYouLikeListItemBottom">
+                            <h3>2017夏装新款韩版大码女装春夏季新品短袖修身纯色百搭雪纺衫上衣</h3>
+                            <div class="priceAndSale">
+                                <span class="price"><i class="GuessYouLikeHot"></i>&yen;4980</span>
+                                <span class="sale">销量：<i class="num">11</i></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="findMore" href="#">
+                        <p class="find">找相似</p>
+                        <p class="findDec">发现更多相似宝贝<span></span></p>
+                    </a>
+                </li>
+                <li class="GuessYouLikeListItem GuessYouLikeListItem06">          <!--猜你喜欢06-->
+                    <a class="GuessYouLikeListItemCon" href="#">
+                        <div class="GuessYouLikeListItemTop">
+                            <img src="images/六门书橱美式书柜.jpg" style="width:221px;height:220px;"/>
+                        </div>
+                        <div class="GuessYouLikeListItemBottom">
+                            <h3>广兰实木书柜白蜡木家具 六门书橱美式书柜</h3>
+                            <div class="priceAndSale">
+                                <span class="price"><i class="GuessYouLikeHot"></i>&yen;4099</span>
+                                <span class="sale">销量：<i class="num">2</i></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="findMore" href="#">
+                        <p class="find">找相似</p>
+                        <p class="findDec">发现更多相似宝贝<span></span></p>
+                    </a>
+                </li>
+                <li class="GuessYouLikeListItem GuessYouLikeListItem07">          <!--猜你喜欢07-->
+                    <a class="GuessYouLikeListItemCon" href="#">
+                        <div class="GuessYouLikeListItemTop">
+                            <img src="images/家具橡木实木.jpg" style="width:221px;height:220px;"/>
+                        </div>
+                        <div class="GuessYouLikeListItemBottom">
+                            <h3>书桌电脑桌原木抽屉写字台家具橡木实木</h3>
+                            <div class="priceAndSale">
+                                <span class="price"><i class="GuessYouLikeHot"></i>&yen;1917</span>
+                                <span class="sale">销量：<i class="num">7</i></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="findMore" href="#">
+                        <p class="find">找相似</p>
+                        <p class="findDec">发现更多相似宝贝<span></span></p>
+                    </a>
+                </li>
+                <li class="GuessYouLikeListItem GuessYouLikeListItem08">          <!--猜你喜欢08-->
+                    <a class="GuessYouLikeListItemCon" href="#">
+                        <div class="GuessYouLikeListItemTop">
+                            <img src="images/新能源摩托车.jpg" style="width:221px;height:220px;"/>
+                        </div>
+                        <div class="GuessYouLikeListItemBottom">
+                            <h3>【全新上市】力帆电摩乐E/LF1200DT 可上牌/智能/新能源摩托车</h3>
+                            <div class="priceAndSale">
+                                <span class="price"><i class="GuessYouLikeHot"></i>&yen;6980</span>
+                                <!--<span class="sale">销量：<i class="num">7</i></span>-->
+                            </div>
+                        </div>
+                    </a>
+                    <a class="findMore" href="#">
+                        <p class="find">找相似</p>
+                        <p class="findDec">发现更多相似宝贝<span></span></p>
+                    </a>
+                </li>
+                <li class="GuessYouLikeListItem GuessYouLikeListItem09">          <!--猜你喜欢09-->
+                    <a class="GuessYouLikeListItemCon" href="#">
+                        <div class="GuessYouLikeListItemTop">
+                            <img src="images/桌茶几定制.jpg" style="width:221px;height:220px;"/>
+                        </div>
+                        <div class="GuessYouLikeListItemBottom">
+                            <h3>榻榻米定制整体日式塌塌米地台地垫踏踏米床卧室飘窗桌茶几定制</h3>
+                            <div class="priceAndSale">
+                                <span class="price"><i class="GuessYouLikeHot"></i>&yen;99</span>
+                                <!--<span class="sale">销量：<i class="num">7</i></span>-->
+                            </div>
+                        </div>
+                    </a>
+                    <a class="findMore" href="#">
+                        <p class="find">找相似</p>
+                        <p class="findDec">发现更多相似宝贝<span></span></p>
+                    </a>
+                </li>
+                <li class="GuessYouLikeListItem GuessYouLikeListItem10">          <!--猜你喜欢10-->
+                    <a class="GuessYouLikeListItemCon" href="#">
+                        <div class="GuessYouLikeListItemTop">
+                            <img src="images/书房家具.jpg" style="width:221px;height:220px;"/>
+                        </div>
+                        <div class="GuessYouLikeListItemBottom">
+                            <h3>美式书柜实木双门储物柜欧式大书柜书房家具</h3>
+                            <div class="priceAndSale">
+                                <span class="price"><i class="GuessYouLikeHot"></i>&yen;3889</span>
+                                <span class="sale">销量：<i class="num">3</i></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="findMore" href="#">
+                        <p class="find">找相似</p>
+                        <p class="findDec">发现更多相似宝贝<span></span></p>
+                    </a>
+                </li>
+            </ul>
+            <div class="AllTitle">
+					<span class="GuessYouLikeEnd leftRightLine">
+						<i style="color: #ccccd0;">END</i>
+					</span>
+            </div>
+        </div>
+        <div class="bottomList clearfix">     <!--底部列表-->
+            <div class="bottomListItem bottomListItem01">
+                <h2><span class="bottomListIco Consumer"></span><i>消费者保障</i></h2>
+                <ul class="clearfix">
+                    <li><a href="#">保障范围</a></li>
+                    <li><a href="#">退货退款流程</a></li>
+                    <li><a href="#">服务中心</a></li>
+                    <li><a href="#">更多特色服务</a></li>
+                </ul>
+            </div>
+            <div class="bottomListItem bottomListItem02">
+                <h2><span class="bottomListIco Novice"></span><i>新手上路</i></h2>
+                <ul class="clearfix">
+                    <li><a href="#">新手专区</a></li>
+                    <li><a href="#">消费警示</a></li>
+                    <li><a href="#">交易安全</a></li>
+                    <li><a href="#">24小时在线帮助</a></li>
+                    <li><a href="#">免费开店</a></li>
+                </ul>
+            </div>
+            <div class="bottomListItem bottomListItem03">
+                <h2><span class="bottomListIco payment"></span><i>付款方式</i></h2>
+                <ul class="clearfix">
+                    <li><a href="#">快捷支付</a></li>
+                    <li><a href="#">信用卡</a></li>
+                    <li><a href="#">余额宝</a></li>
+                    <li><a href="#">蚂蚁花呗</a></li>
+                    <li><a href="#">货到付款</a></li>
+                </ul>
+            </div>
+            <div class="bottomListItem bottomListItem04">
+                <h2><span class="bottomListIco tbfeature"></span><i>淘宝特色</i></h2>
+                <ul class="clearfix">
+                    <li><a href="#">手机淘宝</a></li>
+                    <li><a href="#">旺旺/旺信</a></li>
+                    <li><a href="#">大众评审</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="w">
+        <ul class="footerApplicationList clearfix">
+            <li><a href="#">阿里巴巴集团</a></li>
+            <li><a href="#">淘宝网</a></li>
+            <li><a href="#">天猫</a></li>
+            <li><a href="#">聚划算</a></li>
+            <li><a href="#">全球速买通</a></li>
+            <li><a href="#">阿里巴巴国际交易市场</a></li>
+            <li><a href="#">1688</a></li>
+            <li><a href="#">阿里妈妈</a></li>
+            <li><a href="#">飞猪</a></li>
+            <li><a href="#">阿里云计算</a></li>
+            <li><a href="#">YunOS</a></li>
+            <li><a href="#">阿里通信</a></li>
+            <li><a href="#">一淘</a></li>
+            <li><a href="#">万网</a></li>
+            <li><a href="#">高德</a></li>
+            <li><a href="#">UC</a></li>
+            <li><a href="#">友盟</a></li>
+            <li><a href="#">虾米</a></li>
+            <li><a href="#">阿里星球</a></li>
+            <li><a href="#">钉钉</a></li>
+            <li><a href="#">支付宝</a></li>
+            <li><a href="#">优酷</a></li>
+            <li><a href="#">土豆</a></li>
+            <li><a href="#">阿里健康</a></li>
+            <li><a href="#">阿里影业</a></li>
+            <li><a href="#">阿里体育</a></li>
+            <li><a href="#">网商银行</a></li>
+        </ul>
+        <div class="footerCon">
+            <p>
+                <a href="#">关于淘宝</a><a href="#">合作伙伴</a><a href="#">营销中心</a><a href="#">廉正举报</a><a href="#">联系客服</a><a href="#">开放平台</a><a
+                    href="#">诚征英才</a><a href="#">联系我们</a><a href="#">网站地图</a><a href="#">法律声明及隐私权政策</a><a href="#">知识产权</a><b class="line">|</b><span class="copyRight grayColor">© 2003-2017 Taobao.com 版权所有</span>
+            </p>
+            <p>
+                <a href="#">网络文化经营许可证：浙网文[2013]0268-027号</a><b class="line">|</b><a href="#">增值电信业务经营许可证：浙B2-20080224</a><b class="line">|</b><span class="grayColor">信息网络传播视听节目许可证：1109364号</span><b
+                    class="line">|</b><span class="grayColor">互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+            </p>
+            <p class="police"><a href="#">浙公网安备 33010002000078号</a></p>
+            <div class="reportWebsite">
+                <ul class="clearfix">
+                    <li><a class="reportWebsite01" href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--侧边导航栏-->
+<div class="aside-nav">
+    <ul class="aside-nav-list">
+        <li><span>我常逛的</span></li>
+        <li><span class="line50 selected">时尚</span></li>
+        <li><span class="line50">品质</span></li>
+        <li><span class="line50">特色</span></li>
+        <li><span class="line50">实惠</span></li>
+        <li><span class="top10">猜你喜欢</span></li>
+        <li><span >∧<br/>顶部</span></li>
+        <li><span class="line50">反馈</span></li>
+        <li><span>暴恐举报</span></li>
+    </ul>
+</div>
+</body>
+<script src="js/tab切换.js"></script>
+</html>
+
+
+
+
