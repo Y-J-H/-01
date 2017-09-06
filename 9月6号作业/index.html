@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/base.css">
+  <style>
+    .hotPro {
+      width: 930px;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      padding: 15px;
+    }
+
+    .hotProList > li {
+      float: left;
+      padding-bottom: 15px;
+    }
+
+    .hotProList > li + li {
+      padding-left: 15px;
+    }
+
+    .hotProList > li:nth-child(3n + 1) {
+      padding-left: 0;
+    }
+
+    .hotProList > li > a {
+      display: block;
+    }
+
+    .hotProListImg > img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .hotProListInfor {
+      width: 270px;
+      height: 100px;
+      line-height: 30px;
+      padding: 15px;
+      color: black;
+    }
+
+    .hotProName {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      font-size: 20px;
+    }
+
+    .hotProListInfor > .des {
+      margin: 10px 0 6px 0;
+      line-height: 16px;
+      color: rgba(0, 0, 0, 0.4);
+    }
+
+    .hotProListInfor > .price {
+      font-size: 16px;
+      color: #fa7b00;
+      font-weight: bold;
+    }
+
+    /*nav 部分样式*/
+    .main-nav {
+      width: 960px;
+      margin: 50px auto;
+    }
+
+    .main-nav > ul > li {
+      float: left;
+      list-style: none;
+      width: 76px;
+      background-color: orange;
+      padding: 10px;
+      color: white;
+      text-align: center;
+      font-size: 16px;
+      line-height: 30px;
+    }
+
+    .main-nav > ul > li > a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .main-nav > ul > li > a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+<nav id="main-nav" class="main-nav clearfix">
+  <ul></ul>
+</nav>
+<div id="hotPro" class="hotPro">
+  <ul class="hotProList clearfix">
+    <!--<li>-->
+    <!--<a href="#">-->
+    <!--<div class="hotProListImg">-->
+    <!--<img src="images/10元包邮pic.jpg"/>-->
+    <!--</div>-->
+    <!--<div class="hotProListInfor">-->
+    <!--<h3 class="hotProName" title="仅重600g便携蓝牙音箱 丹麦设计 专业级音质 防滑防水 长续航">仅重600g便携蓝牙音箱 丹麦设计 专业级音质 防滑防水 长续航</h3>-->
+    <!--<p class="des">真正的便捷式蓝牙扬声器，既可畅想音乐又可接听来电，重量只有600g</p>-->
+    <!--<span class="price"><i>&yen;</i>1898.00</span>-->
+    <!--</div>-->
+    <!--</a>-->
+    <!--</li>-->
+  </ul>
+</div>
+<script type="text/javascript" src="js/myajax.js"></script>
+<script>
+  var oNavUl = document.querySelector('#main-nav').querySelector('ul');
+  var oUl = document.querySelector('#hotPro').querySelector('.hotProList');
+  myajax.get('http://h6.duchengjiu.top/shop/api_goods.php', {}, function(error, jsonData) {
+    var json = JSON.parse(jsonData)['data'];
+    for (var i = 0; i < json.length; i++) {
+      if (json[i]['is_hot'] === '1') {
+        bindDom(json[i]);
+      }
+    }
+  });
+
+  myajax.get('http://h6.duchengjiu.top/shop/api_cat.php', {}, function(error, responseText) {
+    var data = JSON.parse(responseText);
+    for (var k in data) {
+      if (k === 'data') {
+        for (var i = 0; i < data[k].length; i++) {
+          // oUl.innerHTML += '<li>' + data[k][i]['cat_name'] + '</li>';
+          oNavUl.innerHTML += `<li><a href="#"> ${data[k][i]['cat_name']} </a></li>`;
+        }
+      }
+    }
+  });
+
+  function bindDom(obj) {
+    oUl.innerHTML +=
+        '<li>\n' +
+        '      <a href="#">\n' +
+        '        <div class="hotProListImg">\n' +
+        '          <img src=' + obj["goods_thumb"] + '>\n' +
+        '        </div>\n' +
+        '        <div class="hotProListInfor">\n' +
+        '          <h3 class="hotProName" title=' + obj['goods_name'] + '>' + obj['goods_name'] + '</h3>\n' +
+        '          <p class="des">' + obj['goods_desc'] + '</p>\n' +
+        '          <span class="price"><i>&yen;</i>' + obj['price'] + '</span>\n' +
+        '        </div>\n' +
+        '      </a>\n' +
+        '    </li>';
+  }
+</script>
+</body>
+</html>
