@@ -1,0 +1,58 @@
+.wrap{
+  width: 1150px;
+  margin: 0 auto;
+  position: relative;
+}
+.logo{
+  width: 1150px;
+  margin: 0 auto;
+}
+.loginContain{
+  height: 580px;
+  background: url(../images/banner.jpg) center no-repeat;
+  background-color: #14212a;
+}
+.loginForm{
+  width: 360px;
+  height: 360px;
+  background-color: #fff;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  margin-top: 90px;
+}
+.loginForm>h3{
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.loginForm>input{
+  width: 325px;
+  height: 40px;
+  margin: 0 10px;
+  line-height: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding-left:15px;
+  border: 1px solid #ccc;
+}
+.errorMessage{
+  margin: 20px 10px 0;
+  color: #ff3c2f;
+  font-size: 18px;
+  display: none;
+}
+.loginForm>input.sub{
+  width: 340px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.foot{
+  height: 150px;
+  background: pink;
+}

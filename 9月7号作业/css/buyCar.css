@@ -1,0 +1,47 @@
+.proCar{
+  width: 1148px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+.proListItem{
+  height: 120px;
+  padding: 10px 50px;
+}
+.proListItem>div{
+  float: left;
+}
+.proListItem .pic img{
+  width: 120px;
+  height: 120px;
+}
+.proListItem .price,.rollnum,.allPrice{
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.proListItem .price >h6,.rollnum>h6,.allPrice>h6,.num>h6{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+.num{
+  width: 200px;
+  height: 20px;
+  text-align: center;
+}
+.num>i{
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+}
+.num>span{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
