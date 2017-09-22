@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Sortable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <style>
+    #sortable {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 60%;
+    }
+
+    #sortable li {
+      width: 350px;
+      margin: 0 3px 3px 3px;
+      padding: 0.4em;
+      padding-left: 1.5em;
+      height: 18px;
+      -webkit-user-select: none
+    }
+
+    #sortable li span {
+      position: absolute;
+      margin-left: -1.3em;
+    }
+
+    .hidden {
+      visibility: hidden;
+    }
+
+    .current {
+      position: absolute;
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+
+<ul id="sortable">
+  <li class="ui-state-default move"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+  <!--<li class="ui-state-default hidden"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>-->
+  <li class="ui-state-default move"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+  <li class="ui-state-default move"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+  <li class="ui-state-default move"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+  <li class="ui-state-default move"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+  <li class="ui-state-default move"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+  <li class="ui-state-default move"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+</ul>
+<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+<script>
+
+  $.fn.sortable = function() {
+    this[0].parentNode.addEventListener('mousedown', function(event) {
+      event = event || window.event;
+      window.target = event.target || event.srcElement;         // 这里将target暴露除去是为了在下面的方法中也能使用
+
+      if (target.classList.contains('move')) {
+        var self = target;                                        // 这里其实target和self是相同的,懒的改了
+        self.classList.add('current');
+
+        // 点击的时候获取到误差值，这里的$(self).offset().left是为了获取到净位置
+        var x = event.clientX - ($(self).offset().left - $(window).scrollLeft());
+        var y = event.clientY - ($(self).offset().top - $(window).scrollTop());
+
+        //在被点击即将移动的那个元素的位置上创建一个li(将这个li隐藏)用来占位并添加上hidden类
+        self.hiddenLi = self.cloneNode(true);
+        self.hiddenLi.classList.remove('current');
+        self.hiddenLi.classList.add('hidden');
+
+        // 这里不知道为什么使用原生的insertAfter就是插不进去元素
+        $(self.hiddenLi).insertAfter(self);
+
+        document.onmousemove = function(event) {
+          event = event || window.event;
+          var iNowX = event.clientX - x;
+          var iNowY = event.clientY - y;
+
+          // 向后拖动时
+          if (self.hiddenLi.nextElementSibling) {                   // 最后一个节点的后面是没有节点的
+            //console.log(iNowY - self.hiddenLi.nextElementSibling.offsetTop);
+
+            // 只要目标的top值减去当前隐藏节点的后一个节点offsetTop值大于0,那么就可以把当前隐藏节点的后一个节点前移(就是把隐藏的节点插到当前隐藏节点的后一个节点的后面)
+//            console.log(iNowY - self.hiddenLi.nextElementSibling.offsetTop);
+            if (iNowY - self.hiddenLi.nextElementSibling.offsetTop > 0) {
+              $(self.hiddenLi).insertAfter(self.hiddenLi.nextElementSibling);
+            }
+
+          }
+
+          // 向前拖动时
+          if (self.hiddenLi.previousElementSibling) {                   // 最前面的节点之前是没有节点的
+            // console.log(iNowY - self.hiddenLi.previousElementSibling.offsetTop);
+            if (iNowY - self.hiddenLi.previousElementSibling.offsetTop < 0) {
+              $(self.hiddenLi.previousElementSibling).insertAfter(self.hiddenLi);
+            }
+
+          }
+
+            self.style.left = iNowX + 'px';
+            self.style.top = iNowY + 'px';
+        };
+      }
+    }, false);
+
+    document.onmouseup = function() {
+      if (target.classList.contains('move')) {
+        document.onmousemove = null;
+        target.parentNode.removeChild(target);               // 移除当前移动的那个节点
+        target.hiddenLi.classList.remove('hidden');          // 移除hidden类让隐藏的节点显示出来
+      }
+    };
+  };
+
+  $('#sortable li').sortable();
+</script>
+</body>
+</html>

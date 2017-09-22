@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Sortable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <style>
+    #sortable {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 60%;
+    }
+
+    #sortable li {
+      width: 350px;
+      margin: 0 3px 3px 3px;
+      padding: 0.4em;
+      padding-left: 1.5em;
+      height: 18px;
+      -webkit-user-select: none;
+    }
+
+    #sortable li span {
+      position: absolute;
+      margin-left: -1.3em;
+    }
+
+    .hidden {
+      visibility: hidden;
+    }
+    .current{
+      position: absolute;
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+
+<ul id="sortable">
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+  <!--<li class="ui-state-default hidden"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>-->
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+</ul>
+<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+<script>
+
+  $.fn.sortable = function() {
+    for (var i = 0; i < this.length; i++) {
+      this[i].addEventListener('mousedown', function() {
+        var self = this;
+        this.classList.add('current');      //
+
+        // 点击的时候获取到误差值，这里的$(self).offset().left是为了获取到净位置
+        var x = event.clientX - ($(this).offset().left - $(window).scrollLeft());
+        var y = event.clientY - ($(this).offset().top - $(window).scrollTop());
+
+        //在被点击即将移动的那个元素的位置上创建一个li(将这个li隐藏)用来占位并添加上hidden类
+        this.hiddenLi = this.cloneNode(true);
+        this.hiddenLi.classList.remove('current');
+        this.hiddenLi.classList.add('hidden');
+        this.parentNode.insertBefore(this.hiddenLi,this);
+
+        document.onmousemove = function(event){
+          event = event || window.event;
+          var iNowX = event.clientX - x;
+          var iNowY = event.clientY - y;
+//          console.log(iNowY - self.nextElementSibling.offsetTop);
+
+          // 只要目标的top值减去后一个节点的offsetTop值大于0,那么就可以把后一个节点前移(就是把原来的空节点插到后一个节点的后面)
+//          console.log(iNowY - self.nextElementSibling.offsetTop);
+          if(iNowY - self.nextElementSibling.offsetTop > 0 ){
+            self.hiddenLi.parentNode.insertBefore(self.hiddenLi,self.nextElementSibling.nextElementSibling);
+          }
+
+          // 当向前移动的时候和上面一种情况是相反的
+          if(iNowY - self.previousElementSibling.offsetTop < 0 ){
+            self.hiddenLi.parentNode.insertBefore(self.nextElementSibling.nextElementSibling,);
+          }
+
+          self.style.left = iNowX + 'px';
+          self.style.top = iNowY + 'px';
+        }
+      }, false);
+
+      this[i].addEventListener('mouseup', function() {
+        document.onmousemove = null;
+
+        this.style.left = this.hiddenLi.offsetLeft;
+        this.style.top = this.hiddenLi.offsetTop;
+
+        this.classList.remove('current');
+        if(this.hiddenLi.parentNode){
+          this.hiddenLi.parentNode.removeChild(this.hiddenLi);
+        }
+      }, false);
+    }
+  };
+
+  $('#sortable li').sortable();
+</script>
+</body>
+</html>
