@@ -11,6 +11,9 @@
   "author": "m17854239497@outlook.com",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.20.3",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12"
   },
