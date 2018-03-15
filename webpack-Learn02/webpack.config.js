@@ -9,6 +9,7 @@ module.exports = {
     app: './src/index.js',
     print: './src/print.js'
   },
+  devtool: 'inline-source-map',    // 这句代码可以帮助我们追踪到错误出现在那个位置
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
