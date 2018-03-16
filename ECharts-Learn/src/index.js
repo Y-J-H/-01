@@ -3,7 +3,8 @@ const echarts = require('echarts');
 var container = document.createElement('div');
 container.style.width = "600px";
 container.style.height = "400px";
-var myChart = echarts.init(container);
+// var myChart = echarts.init(container);
+var myChart = echarts.init(container, 'light');       // 设置主题颜色'light', 'dark', 'theme(默认)'
 // 绘制柱状图
 // myChart.setOption({
 //   title: {
@@ -40,7 +41,7 @@ myChart.setOption({
         }
       },
       data: [
-        { value:280, name:'视频广告' },
+        { value:380, name:'我的广告' },
         { value:274, name:'联盟广告' },
         { value:310, name:'邮件营销' },
         { value:335, name:'直接访问' },
