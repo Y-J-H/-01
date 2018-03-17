@@ -6,7 +6,8 @@ module.exports = {
   entry: {
     index: './src/index.js',
     dataset: './src/dataset.js',
-    dataset: './src/dateset02.js'
+    dataset02: './src/dataset02.js',
+    dataset03: './src/dataset03.js'
   },
   output: {
     filename: '[name].bundle.js',
