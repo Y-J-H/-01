@@ -6,3 +6,4 @@ node_modules/
 *headpic.jpg
 *headpic.png
 *.docx
+dist/
