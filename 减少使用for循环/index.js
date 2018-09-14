@@ -88,3 +88,14 @@ const dupArr = [1, 2, 'as', 1, 'sa', 'arthur', 'as', 1, 2, 3]
 const removeDup = arr => [...new Set(dupArr)]
 
 console.log(removeDup(dupArr))
+
+// 8. 查找出数组中的最大值
+
+const newArr = [
+  { value: 1 },
+  { value: 5 },
+  { value: 2 }
+]
+console.log(Math.max.apply(null, newArr.map(item => item.value)))
+
+ // 使用reduce(), 不是很理解
