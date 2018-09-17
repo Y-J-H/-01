@@ -1,4 +1,4 @@
-node_modules/
+﻿node_modules/
 .idea/
 .vscode/
 .package.json/
@@ -8,3 +8,4 @@ node_modules/
 *.docx
 dist/
 定时器/
+.env
