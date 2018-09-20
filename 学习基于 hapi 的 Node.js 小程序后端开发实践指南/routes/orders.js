@@ -1,5 +1,6 @@
 const GROUP_NAME = 'orders'
 const Joi = require('joi')
+const { jwtHeaderDefine } = require('../utils/router-helper')
 
 module.exports = [
   {
@@ -12,6 +13,7 @@ module.exports = [
       tags: ['api', GROUP_NAME],
       description: '创建订单',
       validate: {
+        ...jwtHeaderDefine,
         payload: {
           goodList: Joi.array().items(
             Joi.object().keys({
@@ -31,7 +33,10 @@ module.exports = [
     },
     config: {
       tags: ['api', GROUP_NAME],
-      description: '支付某条订单'
+      description: '支付某条订单',
+      validate: {
+        ...jwtHeaderDefine
+      }
     }
   }
 ]

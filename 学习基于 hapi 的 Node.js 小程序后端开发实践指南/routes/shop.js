@@ -18,10 +18,8 @@ module.exports = [
           page: Joi.number().integer().min(1).default(1)
             .description('页码数')
         },
-        headers: Joi.object({
-          authorization: Joi.string().required()
-        })
-      }
+      },
+      auth: false
     }
   },
   {
@@ -37,7 +35,8 @@ module.exports = [
         params: {
           shopId: Joi.string().required()
         }
-      }
+      },
+      auth: false
     }
   }
 ]

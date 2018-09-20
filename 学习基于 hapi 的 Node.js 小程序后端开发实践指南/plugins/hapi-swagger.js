@@ -13,10 +13,10 @@ module.exports = [
         title: '接口文档',
         version: package.version,
       },
-      grouping: 'tags',
-      tags: [
-        { name: 'tests', description: '测试相关' }
-      ]
+      // grouping: 'tags'
+      // tags: [
+      //   { name: 'tests', description: '测试相关' }
+      // ]
     }
   }
 ]
